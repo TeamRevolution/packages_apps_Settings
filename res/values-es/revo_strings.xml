@@ -839,4 +839,13 @@
     <string name="slim_recent_title">Slim-Recents</string>
     <string name="custom_recent_title">Activa multitarea Slim</string>
     <string name="custom_recent_summary">Activa la casilla para tener multitarea Slim,desactiva para multitarea AOSP</string>
+
+    <!-- Batterybar -->
+    <string name="battery_bar">Ubicación de la barra de batería</string>
+    <string name="battery_bar_color">Color de la barra de bateria</string>
+    <string name="battery_bar_cat">Barra de bateria</string>
+    <string name="battery_bar_style_title">Estilo de la barra de bateria</string>
+    <string name="battery_bar_thickness_title">Espesor de la barra de batería</string>
+    <string name="battery_bar_animate_title">Animación de carga</string>
+    <string name="battery_bar_animate_summary">La animación de carga puede dar lugar a una experiencia de inestabilidad del sistema. Habilitar bajo su responsabilidad.</string>
 </resources>

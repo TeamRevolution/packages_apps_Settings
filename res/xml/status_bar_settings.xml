@@ -24,6 +24,11 @@
         android:title="@string/status_bar_style_title">
 
         <PreferenceScreen
+            android:key="battery_bar_cat"
+            android:fragment="com.android.settings.omnikang.BatteryBar"
+            android:title="@string/battery_bar_cat" />
+
+        <PreferenceScreen
             android:fragment="com.android.settings.slim.StatusBarClockStyle"
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
