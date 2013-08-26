@@ -22,7 +22,7 @@ import android.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class extrasSettings extends SettingsPreferenceFragment implements
+public class miscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "miscSettings";
 

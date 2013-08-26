@@ -95,6 +95,12 @@
             android:summary="@string/tile_picker_summary"
             android:fragment="com.android.settings.slim.quicksettings.QuickSettingsTiles" />
 
+        <CheckBoxPreference
+            android:key="quick_settings_tiles_flip"
+            android:title="@string/flip_qs_tiles_title"
+            android:summary="@string/flip_qs_tiles_summary"
+            android:defaultValue="true" />
+
         <ListPreference
             android:key="quick_pulldown"
             android:title="@string/title_quick_pulldown"

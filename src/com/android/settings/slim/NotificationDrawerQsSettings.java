@@ -69,6 +69,8 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
             "tile_picker";
     private static final String STATUS_BAR_CUSTOM_HEADER = 
             "custom_status_bar_header";
+    private static final String PREF_QUICK_SETTINGS_TILES_FLIP =
+            "quick_settings_tiles_flip";
 
     ListPreference mHideLabels;
     SeekBarPreference mNotificationAlpha;
@@ -80,6 +82,7 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
     private CheckBoxPreference mStatusBarCustomHeader;
     ListPreference mSmartPulldown;
     CheckBoxPreference mCollapsePanel;
+    CheckBoxPreference mTileFlip;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -184,6 +187,11 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
                 Settings.System.QS_COLLAPSE_PANEL, 0, UserHandle.USER_CURRENT) == 1);
         mCollapsePanel.setOnPreferenceChangeListener(this);
 
+        mTileFlip = (CheckBoxPreference) findPreference(PREF_QUICK_SETTINGS_TILES_FLIP);
+        mTileFlip.setChecked(Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.QUICK_SETTINGS_TILES_FLIP, 0, UserHandle.USER_CURRENT) == 1);
+        mTileFlip.setOnPreferenceChangeListener(this);
+
         updateQuickSettingsOptions();
     }
 
@@ -272,6 +280,11 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
             Settings.System.putStringForUser(getContentResolver(),
                     Settings.System.REMINDER_ALERT_RINGER,
                     val.toString(), UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mTileFlip) {
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.QUICK_SETTINGS_TILES_FLIP,
+                    (Boolean) newValue ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
