@@ -2066,5 +2066,12 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
+        <service android:name=".chameleonos.labs.identicons.IdenticonCreationService"
+                 android:exported="false" />
+
+        <service android:name=".chameleonos.labs.identicons.IdenticonRemovalService"
+                 android:exported="false" />
+
     </application>
 </manifest>

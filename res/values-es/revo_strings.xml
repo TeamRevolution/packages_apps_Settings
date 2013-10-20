@@ -1332,4 +1332,27 @@
     <string name="dpi_sucess">DPI cambiado con éxito.Por favor, reinicia el dispositivo.</string>
     <string name="dpi_warning">*PELIGRO*la garantía está ahora anulada.Introduce los DPI y pulsa el botón. Necesitas reiniciar para aplicar los DPI.</string>
 
+    <!-- Identicons -->
+    <string name="identicons_title">Identicons</string>
+    <string name="identicons_enabled_title">Identicons</string>
+    <string name="identicons_enabled_summary">Usa identicon como imagen de contacto por defecto cuando se crea un nuevo contacto</string>
+    <string name="identicons_style_title">Estilo Identicon</string>
+    <string name="identicons_style_summary">Selecciona un estilo de identicon para utilizar</string>
+    <string name="identicons_create_title">Crea identicons</string>
+    <string name="identicons_create_summary">Crea identicons para los contactos existentes sin foto de contacto</string>
+    <string name="identicons_creation_service_running_title">Creando identicons</string>
+    <string name="identicons_creation_service_running_summary"></string>
+    <string name="identicons_creation_service_contact_summary">Procesando %s</string>
+    <string name="identicons_creation_service_contact_summary_finishing">Terminando de aplicar...</string>
+    <string name="identicons_remove_title">Elimina identicons</string>
+    <string name="identicons_remove_summary">Elimina identicon de los contactos que ya tienen uno puesto</string>
+    <string name="identicons_remove_service_running_title">Eliminando identicons</string>
+    <string name="identicons_remove_service_running_summary"></string>
+    <string name="identicons_remove_service_contact_summary">Procesando foto</string>
+    <string name="identicons_remove_service_contact_summary_finishing">Terminando de aplicar...</string>
+    <string name="identicons_style_retro">Retro</string>
+    <string name="identicons_style_contemporary">Contemporary</string>
+    <string name="identicons_style_spirograph">Spirograph</string>
+    <string name="identicons_style_dotmatrix">Dot matrix</string>
+
 </resources>
