@@ -34,6 +34,12 @@
         android:fragment="com.android.settings.slim.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <PreferenceScreen
+        android:key="app_sidebar"
+        android:title="@string/app_sidebar_title"        
+        android:icon="@drawable/ic_settings_app_bar"
+        android:fragment="com.android.settings.mahdi.AppSidebar" />    
+
     <Preference
         android:fragment="com.android.settings.omnidirt.Animations"
         android:key="animations"
