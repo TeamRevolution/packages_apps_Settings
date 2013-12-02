@@ -1471,4 +1471,13 @@
     <string name="clock_use_second">Segundos en reloj</string>
     <string name="clock_use_second_summary">Ver segundero en el reloj de la barra de estado</string>
 
+    <!-- Lockscreen background -->
+    <string name="lockscreen_background">Fondo bloqueo</string>
+    <string name="lockscreen_background_style_title">Fondo pantalla bloqueo</string>
+    <string name="background_default">Fondo por defecto</string>
+    <string name="background_wallpaper">Fondo personalizado</string>
+    <string name="background_result_successful">Fondo cambiado</string>
+    <string name="background_result_not_successful">El fondo no se ha cambiado</string>
+    <string name="setting_lockscreen_background">Aplicando fondo</string>
+
 </resources>
