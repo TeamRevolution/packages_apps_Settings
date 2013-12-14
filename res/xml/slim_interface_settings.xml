@@ -56,7 +56,13 @@
         android:key="gesture_anywhere"
         android:icon="@drawable/ic_settings_gesture_anywhere"
         android:fragment="com.android.settings.ose.gestureanywhere.GestureAnywhereSettings"
-        android:title="@string/gesture_anywhere_title" />   
+        android:title="@string/gesture_anywhere_title" /> 
+
+    <PreferenceScreen
+        android:key="@+id/lockscreen_notifcation_settings"
+        android:icon="@drawable/ic_settings_locknotification"
+        android:title="@string/lockscreen_notifications"
+        android:fragment="com.carbon.fibers.fragments.ls.LockscreenNotifications" />  
 
     <Preference
         android:fragment="com.android.settings.omnidirt.Animations"
