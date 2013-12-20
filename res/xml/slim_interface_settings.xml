@@ -35,6 +35,12 @@
         android:title="@string/status_bar_title" />
 
     <PreferenceScreen
+        android:key="active_display"
+        android:icon="@drawable/ic_dt_activedisplay"
+        android:fragment="com.android.settings.ose.ActiveDisplaySettings"
+        android:title="@string/ad_settings_title" />
+
+    <PreferenceScreen
         android:key="app_sidebar"
         android:title="@string/app_sidebar_title"        
         android:icon="@drawable/ic_settings_app_bar"
