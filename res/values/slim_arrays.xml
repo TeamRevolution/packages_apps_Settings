@@ -1119,6 +1119,7 @@
         <item>3</item>
     </string-array>
 
+<<<<<<< HEAD
     <!-- Notification reminder sounds -->
     <string-array name="noti_reminder_sound_entries">
         <item>@string/disabled</item>
@@ -1217,6 +1218,21 @@
         <item>100</item>
         <item>85</item>
         <item>70</item>
+    </string-array>
+
+    <!-- Clear All Recents Button -->
+    <string-array name="recent_clear_all_button_location_entries" translatable="false">
+        <item>@string/recent_clear_all_button_location_top_left</item>
+        <item>@string/recent_clear_all_button_location_top_right</item>
+        <item>@string/recent_clear_all_button_location_bottom_left</item>
+        <item>@string/recent_clear_all_button_location_bottom_right</item>
+    </string-array>
+
+    <string-array name="recent_clear_all_button_location_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
 </resources>
