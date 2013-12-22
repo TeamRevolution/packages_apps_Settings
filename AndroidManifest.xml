@@ -1802,7 +1802,10 @@
                 android:value="com.android.settings.slim.DisplayRotation" />
         </activity>
 
+        <!-- Revo Tweaks -->
         <activity android:name=".slim.Halo" />
+        <activity android:name=".omnidirt.Animations" />
+        <activity android:name=".omnidirt.ListViewAnimations" />
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"

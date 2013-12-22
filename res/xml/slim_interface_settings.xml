@@ -34,6 +34,12 @@
         android:fragment="com.android.settings.slim.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <Preference
+        android:fragment="com.android.settings.omnidirt.Animations"
+        android:key="animations"
+        android:icon="@drawable/ic_dt_animations"
+        android:title="@string/animations_cat" />
+
     <PreferenceScreen
         android:icon="@drawable/screenrec"
         android:key="screen_recorder"

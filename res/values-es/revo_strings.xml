@@ -848,4 +848,45 @@
     <string name="battery_bar_thickness_title">Espesor de la barra de batería</string>
     <string name="battery_bar_animate_title">Animación de carga</string>
     <string name="battery_bar_animate_summary">La animación de carga puede dar lugar a una experiencia de inestabilidad del sistema. Habilitar bajo su responsabilidad.</string>
+
+    <!-- Animation Controls -->
+    <string name="animations_cat">Animaciones</string>
+    <string name="title_animation_controls">Animaciones de Sistema</string>
+    <string name="activity_open_title">Animación al abrir aplicación</string>
+    <string name="activity_close_title">Animación al cerrar aplicación</string>
+    <string name="task_open_title">Animación al abrir tarea</string>
+    <string name="task_close_title">Animación al cerrar tarea</string>
+    <string name="task_move_to_front_title">Animación para mover al principio</string>
+    <string name="task_move_to_back_title">Animación para mover atrás</string>
+    <string name="wallpaper_open_title">Animación al abrir "elegir Wallpaper"</string>
+    <string name="wallpaper_close_title">Animación al cerrar "elegir Wallpaper"</string>
+    <string name="wallpaper_intra_open_title">Animación de abrir "Intra Wallpaper"</string>
+    <string name="wallpaper_intra_close_title">Animación de cerrar "Intra Wallpaper"</string>
+    <string name="animation_duration_title">Duracion de la Animación</string>
+    <string name="title_animation_no_override">Evitar que la APP anule</string>
+    <string name="summary_animation_no_override">Evitar que las aplicaciones reemplacen transiciones.</string>
+    <string name="animation_duration_default">Defecto</string>
+    <string name="header_summary_animation">@null</string>
+    <string name="list_view_animations">Ver lista de animaciones</string>
+    <string name="bars_and_menus_category_system_title">Sistema</string>
+    <string name="listview_animation_title">Lista de animaciones</string>
+    <string name="listview_off">Off</string>
+    <string name="listview_wave_left">Ola (Izquierda)</string>
+    <string name="listview_wave_right">Ola (Derecha)</string>
+    <string name="listview_alpha">Alpha</string>
+    <string name="listview_scale">Escala</string>
+    <string name="listview_stack_top">Apilado (Arriba)</string>
+    <string name="listview_stack_bottom">Apilado(Abajo)</string>
+    <string name="listview_unfold">Desplegar</string>
+    <string name="listview_fold">Plegar</string>
+    <string name="listview_translate_left">Trasladar (Izquierda)</string>
+    <string name="listview_translate_right">Trasladar (Derecha)</string>
+    <string name="listview_interpolator_title">Lista de interpolados</string>
+    <string name="listview_accelerate_interpolator">Acelerado</string>
+    <string name="listview_decelerate_interpolator">Decelerado</string>
+    <string name="listview_accelerate_decelerate_interpolator">Acelerado y decelerado</string>
+    <string name="listview_anticipate_interpolator">Anticipado</string>
+    <string name="listview_overshoot_interpolator">Excedido</string>
+    <string name="listview_anticipate_overshoot_interpolator">Anticipado y excedido</string>
+    <string name="listview_bounce_interpolator">Bote</string>
 </resources>
