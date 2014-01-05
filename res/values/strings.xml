@@ -3492,6 +3492,196 @@
         <item quantity="one"><xliff:g id="count" example="1">%1$s</xliff:g> printer found</item>
         <item quantity="other"><xliff:g id="count" example="2">%1$s</xliff:g> printers found</item>
     </plurals>
+<<<<<<< HEAD
+=======
+    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Enabled</string>
+
+    <string name="status_bar_title">Statusbar</string>
+    <string name="sb_battery_category">Battery</string>
+    <string name="sb_clock_category">Clock</string>
+    <string name="sb_general_category">General</string>
+    <string name="sb_notification_category">Notification Drawer</string>
+    <string name="sb_quicksettings_category">Quick Settings</string>
+
+    <!-- Interface settings -->
+    <string name="ui_recents_category">Recents Panel</string>
+
+    <!-- Lockscreen settings -->
+    <string name="keyguard_title">Lockscreen</string>
+    <string name="ls_targets_category">Targets</string>
+    <string name="ls_general_category">General</string>
+
+    <!-- Clear recents button -->
+    <string name="clear_button_title">Clear all position</string>
+    <string name="clear_button_off">Off</string>
+    <string name="clear_button_top_left">Top left</string>
+    <string name="clear_button_top_right">Top right</string>
+    <string name="clear_button_bottom_left">Bottom left</string>
+    <string name="clear_button_bottom_right">Bottom right</string>
+
+    <!-- Quick settings panel  -->
+    <string name="quick_settings_panel_title">Quick Settings panel</string>
+    <string name="title_static_tiles">Static tiles</string>
+    <string name="tile_picker_title">Tiles and layout</string>
+    <string name="tile_picker_summary">View, select or change the layout of the displayed tiles</string>
+    <string name="tile_choose_title">Choose a tile</string>
+
+    <string name="title_tile_airplane">Airplane mode</string>
+    <string name="title_tile_battery">Battery stats</string>
+    <string name="title_tile_bluetooth">Bluetooth</string>
+    <string name="title_tile_brightness">Brightness</string>
+    <string name="title_tile_camera">Camera</string>
+    <string name="title_tile_sleep">Go to sleep</string>
+    <string name="title_tile_gps">GPS</string>
+    <string name="title_tile_torch">Torch</string>
+    <string name="title_tile_lockscreen">Lock screen</string>
+    <string name="title_tile_lte">LTE</string>
+    <string name="title_tile_mobiledata">Mobile data</string>
+    <string name="title_tile_profile">Profile</string>
+    <string name="title_tile_performance_profile">Performance profile</string>
+    <string name="title_tile_autorotate">Orientation</string>
+    <string name="title_tile_settings">Settings</string>
+    <string name="title_tile_sound">Sound</string>
+    <string name="title_tile_sync">Sync</string>
+    <string name="title_tile_wifiap">Wi-Fi AP</string>
+    <string name="title_tile_wifi">Wi-Fi</string>
+    <string name="title_tile_user">User switcher</string>
+    <string name="title_tile_networkmode">Network mode</string>
+    <string name="title_tile_nfc">NFC</string>
+    <string name="title_tile_screen_timeout">Screen timeout</string>
+    <string name="title_tile_quick_record">Quick Record</string>
+    <string name="title_tile_quiet_hours">Quiet hours</string>
+    <string name="title_tile_volume">Volume</string>
+    <string name="title_tile_expanded_desktop">Expanded desktop</string>
+    <string name="title_tile_network_adb">ADB over network</string>
+    <string name="title_tile_music">Music playback</string>
+    <string name="title_tile_screenshot">Screenshot</string>
+    <string name="title_tile_immersive">Immersive mode</string>
+
+    <string name="title_dynamic_tiles">Dynamic tiles</string>
+    <string name="dynamic_tiles_note_title">Note</string>
+    <string name="dynamic_tiles_note_summary">Dynamic tiles are not always visible and will only show up if triggered by a system event</string>
+    <string name="title_dynamic_alarm">Alarm clock</string>
+    <string name="title_dynamic_bugreport">Bug report</string>
+    <string name="title_dynamic_dock_battery">Dock battery</string>
+    <string name="title_dynamic_ime">IME changer</string>
+    <string name="title_dynamic_usbtether">USB Tether</string>
+    <string name="title_dynamic_wifi">Wi-Fi display</string>
+
+    <string name="title_general">General</string>
+    <string name="title_quick_pulldown">Quick pulldown</string>
+    <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary_left">Left</string>
+    <string name="quick_pulldown_summary_right">Right</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+    <string name="title_collapse_panel">Auto close panel</string>
+    <string name="summary_collapse_panel">Close the Quick Settings panel after toggling a tile</string>
+
+    <string name="pref_network_mode_title">Network modes</string>
+    <string name="pref_screenshot_delay_title">Screenshot delay</string>
+    <string name="pref_screentimeout_mode_title">Screen timeout modes</string>
+    <string name="pref_ring_mode_title">Sound modes</string>
+    <string name="pref_music_mode_title">Music mode</string>
+    <string name="pref_ring_mode_summary">View or change the Sound button modes</string>
+    <string name="cm_sound_mode_silent">Silent</string>
+    <string name="cm_sound_mode_vibrate">Vibrate</string>
+    <string name="cm_sound_mode_sound">Sound</string>
+    <string name="cm_sound_mode_soundVibrate">Sound &amp; Vibrate</string>
+    <string name="music_tile_mode_background">Show album artwork</string>
+    <string name="music_tile_mode_tracktitle">Show track title</string>
+
+    <!-- Reset tiles -->
+    <string name="tiles_reset_title">Reset</string>
+    <string name="tiles_reset_message">Restore the default displayed tiles and layout?</string>
+
+    <!-- Notification Drawer  -->
+    <string name="notification_drawer_title">Notification drawer</string>
+    <string name="notification_drawer_collapse_on_dismiss_title">Auto close behavior</string>
+    <string name="collapse_on_dismiss_never">Disabled</string>
+    <string name="collapse_on_dismiss_if_empty">If none remaining</string>
+    <string name="collapse_on_dismiss_if_no_clearable">If no removable remaining</string>
+    <string name="collapse_on_dismiss_never_summary">Leave open after removing notifications</string>
+    <string name="collapse_on_dismiss_if_empty_summary">Close after removing the last notification</string>
+    <string name="collapse_on_dismiss_if_no_clearable_summary">Close after removing the last removable notification</string>
+
+    <!-- Quick access ribbon -->
+    <string name="category_quick_access">Quick Access ribbon</string>
+    <string name="title_quick_access">Show in drawer</string>
+    <string name="title_quick_access_linked">Linked layout</string>
+    <string name="summary_quick_access_linked">Use the same tiles and layout as the Quick Settings panel</string>
+
+    <!-- Power menu enable disable -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_immersive_title">Immersive</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenrecord_title">Screen record</string>
+    <string name="power_menu_profiles_title">Profile switcher</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_user_title">User switcher</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+
+    <!-- StatusBar Battery Settings -->
+    <string name="battery_icon_title">Battery icon</string>
+    <string name="battery_status_icon">Icon</string>
+    <string name="battery_status_percentage">Percentage</string>
+    <string name="battery_status_icon_percentage">Icon with percentage</string>
+    <string name="battery_status_circle">Circle</string>
+    <string name="battery_status_circle_percentage">Circle with percentage</string>
+    <string name="battery_status_dotted_circle_percentage">Dotted Circle with percentage</string>
+    <string name="battery_status_dotted_circle">Dotted Circle</string>
+    <string name="battery_color_title">Battery color</string>
+    <string name="circle_battery_animation_speed">Circle animation speed</string>
+    <string name="circle_battery_animation_speed_none">None</string>
+    <string name="circle_battery_animation_speed_slow">Slow</string>
+    <string name="circle_battery_animation_speed_stock">Normal</string>
+    <string name="circle_battery_animation_speed_fast">Fast</string>
+    <string name="battery_text_color">Percentage text color</string>
+    <string name="battery_bolt_color">Bolt charging color</string>
+    <string name="battery_text_charging_color">Percentage text charging color</string>
+    <string name="battery_style_reset_message">Reset all battery colors?</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_clock">Clock and date</string>
+    <string name="status_bar_clock_title">Clock and date style</string>
+    <string name="clock_title_enable">Alignment</string>
+    <string name="clock_enabled">Enabled</string>
+    <string name="clock_disabled">Disabled</string>
+    <string name="clock_color_title">Color</string>
+    <string name="status_bar_clock_style_reset">Reset color</string>
+    <string name="status_bar_show_clock_title">Show clock and date</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="enable_clock_weekday">Day of the week</string>
+    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+    <string name="right_clock">Right clock</string>
+    <string name="center_clock">Center clock</string>
+    <string name="dont_show">Don\'t show</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="am_pm_clock_normal">Normal font size</string>
+    <string name="am_pm_clock_small">Small font size</string>
+    <string name="am_pm_clock_none">Don\'t show</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
+    <string name="clock_font_style_title">Font</string>
+    <string name="clock_font_bold">Bold</string>
+    <string name="clock_font_light">Light</string>
+    <string name="clock_font_normal">Normal</string>
 
     <!-- App Fuel Gauge strings -->
     <skip />
