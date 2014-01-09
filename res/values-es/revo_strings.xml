@@ -1035,8 +1035,41 @@
     <string name="wakelock_blocker_warning">Bloquear wakelocks puede causar inestabilidad en el sistema.</string>
 
     <!--Lockscreen See Through-->
-     <string name="see_through_title">Ver a través</string>
-     <string name="see_through_summary">Muestra el contenido detrás de la pantalla de bloqueo, sus datos pueden ser visibles a los que te rodean</string>
-     <string name="blur_category">Efecto blur</string>
+    <string name="see_through_title">Ver a través</string>
+    <string name="see_through_summary">Muestra el contenido detrás de la pantalla de bloqueo, sus datos pueden ser visibles a los que te rodean</string>
+    <string name="blur_category">Efecto blur</string>
+
+    <!-- Lockscreen Notifications -->
+    <!-- Categories -->
+    <string name="general">General</string>
+    <string name="layout">Diseño</string>
+    <string name="privacy">Privacidad</string>
+ 
+    <string name="Lockscreen_notifications_header">Lockscreen Notifications</string>
+    <string name="lockscreen_notifications">Lockscreen notifications</string>
+    <string name="lockscreen_notifications_summary">Mostrar las notificaciones pendientes en la pantalla de bloqueo</string>
+    <string name="pocket_mode">Modo bolsillo</string>
+    <string name="pocket_mode_summary">Enciende la pantalla y muestra todas las notificaciones cuando el dispositivo se saca del bolsillo.Apaga la pantalla cuando el dispositivo se pone de nuevo en el bolsillo.</string>
+    <string name="show_always">Mostrar siempre</string>
+    <string name="show_always_summary">Siempre enciende la pantalla al sacar del bolsillo,incluso cuando no hay notificaciones pendientes</string>
+    <string name="hide_low_priority">Ocultar baja prioridad</string>
+    <string name="hide_low_priority_summary">Ocultar notificaciones de baja prioridad como Google now weather notifications</string>
+    <string name="hide_non_clearable">Ocultar no elimininables</string>
+    <string name="hide_non_clearable_summary">Ocultar notificaciones no eliminables</string>
+    <string name="dismiss_all">Permitir descartar todas las notificaciones </string>
+    <string name="dismiss_all_summary">Permitir descartar las notificaciones no eliminables.Estarán simplemente escondidas de la pantalla de bloqueo y no del panel de notificaciones.</string>
+    <string name="expanded_view">Vista notificación expandida</string>
+    <string name="expanded_view_summary">Mostrar notificaciones expandidas cuando sea posible</string>
+    <string name="force_expanded_view">Forzar vista expandida</string>
+    <string name="force_expanded_view_summary">Mostrar notificaciones expandidas por defecto.Usted todavía será capaz de cambiar entre visualización expandida y vista normal.</string>
+    <string name="wake_on_notification">Activación de notificación</string>
+    <string name="wake_on_notification_summary">Despertar dispositivo cuando se recibe una nueva notificación</string>
+    <string name="notifications_height">Recuento de notificaciones</string>
+    <string name="notifications_height_summary">Número de notificaciones que se muestran a la vez</string>
+    <string name="offset_top">Ajuste a la parte superior de la pantalla:</string>
+    <string name="privacy_mode">Modo de privacidad</string>
+    <string name="privacy_mode_summary">Desactiva las notificaciones mostradas y descartadas.De esta manera , sólo se mostrarán los iconos de las notificaciones.</string>
+    <string name="excluded_apps_title">Aplicaciones excluidas</string>
+    <string name="excluded_apps_summary">Aplicaciones excluidas que no se mostraran</string>
     
 </resources>
