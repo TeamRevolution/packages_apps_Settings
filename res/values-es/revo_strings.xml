@@ -1314,4 +1314,22 @@
     <!-- Battery ring  -->
     <string name="battery_around_lockscreen_ring">Nivel de batería alrededor del anillo</string>
 
+    <!-- DPI Tool -->
+    <string name="dpi_category">DPI</string>
+    <string name="current_dpi">DPI actual</string>
+    <string name="dpi_category">DPI</string>
+    <string name="dpi_ldpi">Los DPI apropiados para este dispositivo son 0~120.</string>
+    <string name="dpi_mdpi">Los DPI apropiados para este dispositivo son 120~160.</string>
+    <string name="dpi_hdpi">Los DPI apropiados para este dispositivo son 160~240.</string>
+    <string name="dpi_xhdpi">Los DPI apropiados para este dispositivo son 240~320.</string>
+    <string name="dpi_xxhdpi">Los DPI apropiados para este dispositivo son 320~640.</string>
+    <string name="dpi_msg1">DPI cambiados con éxito</string>
+    <string name="dpi_msg2">a</string>
+    <string name="dpi_msg3">.</string>
+    <string name="dpi_need_reboot">Es necesario reiniciar para aplicar los cambios de DPI</string>
+    <string name="dpi_null">Por favor, introduce DPI</string>
+    <string name="dpi_reboot">Reinicio automático</string>
+    <string name="dpi_sucess">DPI cambiado con éxito.Por favor, reinicia el dispositivo.</string>
+    <string name="dpi_warning">*PELIGRO*la garantía está ahora anulada.Introduce los DPI y pulsa el botón. Necesitas reiniciar para aplicar los DPI.</string>
+
 </resources>

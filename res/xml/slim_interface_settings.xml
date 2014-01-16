@@ -38,6 +38,14 @@
         android:title="@string/display_cat">
 
     <PreferenceScreen
+        android:icon="@drawable/dpi"
+        android:key="DPI"
+        android:title="@string/dpi_category" >
+        <intent android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.dokdo.DPI_Settings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:id="@+id/halo_settings"
         android:fragment="com.android.settings.slim.Halo"
         android:icon="@drawable/ic_settings_halo" 
