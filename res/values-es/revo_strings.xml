@@ -1420,5 +1420,18 @@
 
     <!-- Hide battery icon -->
     <string name="hide_battery_icon_title">Ocultar icono bateria</string>
+
+    <!-- Status bar color -->
+    <string name="custom_status_bar_header_title">Color barra de estado y navegacion</string>
+    <string name="custom_status_bar_color_title">Activa para usar color personalizado</string>
+    <string name="status_bar_opaque_color">Color</string>
+    <string name="status_bar_transparent_color">Intensidad color</string>
+    <string name="status_bar_color_reset">Resetear color barra de estado</string>
+    <string name="restart_status_bar_menu_title">Reiniciar barra de estado</string>
+    <string name="restart_status_bar_title">Reiniciar?</string>
+    <string name="restart_status_bar_message">Reinicia el System UI para tus modificaciones.</string>
+    <string name="custom_system_icon_color_title">Color iconos barra de estado</string>
+    <string name="system_icon_color">Color icono</string>
+    <string name="custom_color_summary">Invalidar el color del sistema</string>
    
 </resources>
