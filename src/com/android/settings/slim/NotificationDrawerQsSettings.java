@@ -34,6 +34,7 @@ import android.os.UserHandle;
 
 import com.android.internal.util.slim.DeviceUtils;
 
+import com.android.settings.util.Helpers;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.slim.quicksettings.QuickSettingsUtil;
 import com.android.settings.R;
@@ -66,6 +67,8 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
             "quicksettings_tiles_style";
     private static final String PREF_TILE_PICKER =
             "tile_picker";
+    private static final String STATUS_BAR_CUSTOM_HEADER = 
+            "custom_status_bar_header";
 
     ListPreference mHideLabels;
     SeekBarPreference mNotificationAlpha;
@@ -74,6 +77,7 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
     ListPreference mReminderMode;
     RingtonePreference mReminderRingtone;
     ListPreference mQuickPulldown;
+    private CheckBoxPreference mStatusBarCustomHeader;
     ListPreference mSmartPulldown;
     CheckBoxPreference mCollapsePanel;
 
@@ -91,6 +95,11 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
         mHideLabels.setValue(String.valueOf(hideCarrier));
         mHideLabels.setOnPreferenceChangeListener(this);
         updateHideNotificationLabelsSummary(hideCarrier);
+
+        mStatusBarCustomHeader = (CheckBoxPreference) findPreference(STATUS_BAR_CUSTOM_HEADER);
+        mStatusBarCustomHeader.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1);
+        mStatusBarCustomHeader.setOnPreferenceChangeListener(this);
 
         PackageManager pm = getPackageManager();
         boolean isMobileData = pm.hasSystemFeature(PackageManager.FEATURE_TELEPHONY);
@@ -213,6 +222,12 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
             float valNav = Float.parseFloat((String) newValue);
             Settings.System.putFloat(getContentResolver(),
                     Settings.System.NOTIFICATION_ALPHA, valNav / 100);
+            return true;
+        } else if (preference == mStatusBarCustomHeader) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, value ? 1 : 0);
+            Helpers.restartSystemUI();
             return true;
         } else if (preference == mQuickPulldown) {
             int statusQuickPulldown = Integer.valueOf((String) newValue);

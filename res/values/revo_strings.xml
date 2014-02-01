@@ -695,7 +695,7 @@
     <string name="dpi_sucess">Display density successfully applied. \n\n Please reboot.</string>
     <string name="dpi_warning">*WARNING*\n\n\n warranty is now void. \n\nEnter DPI and press Button. You need to reboot to apply DPI.</string>
 
-    <!-- Identicons -->
+    
     <string name="identicons_title">Identicons</string>
     <string name="identicons_enabled_title">Identicons</string>
     <string name="identicons_enabled_summary">Use identicon as default contact picture when creating new contacts</string>
@@ -717,5 +717,9 @@
     <string name="identicons_style_contemporary">Contemporary</string>
     <string name="identicons_style_spirograph">Spirograph</string>
     <string name="identicons_style_dotmatrix">Dot matrix</string>
+
+    <!-- Custom panel header -->
+    <string name="custom_statusbar_header_title">Contextual notification panel header</string>
+    <string name="custom_statusbar_header_summary">Sets the background of the notification panel header to an image based on the current date and time</string>
     
 </resources>
