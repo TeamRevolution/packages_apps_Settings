@@ -1078,6 +1078,7 @@
     <string name="privacy_mode_summary">Desactiva las notificaciones mostradas y descartadas.De esta manera , sólo se mostrarán los iconos de las notificaciones.</string>
     <string name="excluded_apps_title">Aplicaciones excluidas</string>
     <string name="excluded_apps_summary">Aplicaciones excluidas que no se mostraran</string>
+    <string name="notification_color">Color fondo notificación</string>
 
     <!-- Profiles settings  -->
     <string name="profiles_settings_title">Perfiles</string>
