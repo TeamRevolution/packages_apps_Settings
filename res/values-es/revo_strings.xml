@@ -1020,5 +1020,15 @@
     <string name="ad_pocket_mode_off">Off</string>
     <string name="ad_pocket_mode_notifications">Solo notificaciones</string>
     <string name="ad_pocket_mode_always">Siempre</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker">Wakelock Blocker</string>
+    <string name="wakelock_blocker_title">Activado</string>
+    <string name="wakelock_blocker_summary">Activar para chequeo de wakelocks</string>
+    <string name="wakelock_blocker_save">Guardar</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Recargar</string>
+    <string name="wakelock_blocker_warning_title">Procede con precaución</string>
+    <string name="wakelock_blocker_warning">Bloquear wakelocks puede causar inestabilidad en el sistema.</string>
     
 </resources>

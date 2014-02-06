@@ -75,4 +75,10 @@
         android:fragment="com.android.settings.slim.RecentsPanel"
         android:title="@string/recent_apps_panel_title" />
 
+    <PreferenceScreen
+        android:icon="@drawable/ic_settings_wakelock_blocker"
+        android:id="@+id/wakelock_blocker"
+        android:title="@string/wakelock_blocker"
+        android:fragment="com.android.settings.du.WakeLockBlocker" />
+
 </PreferenceScreen>
