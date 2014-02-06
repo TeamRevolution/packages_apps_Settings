@@ -1291,4 +1291,24 @@
     <string name="show_activity_indicators_on_status_bar_title">Indicadores de actividad de red</string>
     <string name="show_activity_indicators_on_status_bar_summary">Ver los indicadores de actividad tipo Android J.B</string>
 
+    <!-- SlimSizer  -->
+    <string name="listsystem">Lista</string>
+    <string name="sizer_title">System App Remover</string>
+    <string name="caution">¡Precaución!</string>
+    <string name="sizer_message_startup">Esta herramienta te permite eliminar aplicaciones del sistema. Ten cuidado y ekimina solo las que sepas que puedes borrar.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sizer_message_delete">¿Estás seguro de querer eliminar esta app?</string>
+    <string name="btn_delete">¡Elimina las aplicaciones seleccionadas!</string>
+    <string name="delete_progress_title">Eliminando</string>
+    <string name="delete_progress">Los ficheros seleccionados están siendo eliminados...</string>
+    <string name="delete_success">Eliminado</string>
+    <string name="delete_fail">Fallo al eliminar</string>
+    <string name="btn_profile">Perfil</string>
+    <string name="sizer_message_sdnowrite">No se puede escribir en la memoria.</string>
+    <string name="sizer_message_sdnoread">No se puede leer la memoria.</string>
+    <string name="sizer_message_filesuccess">Perfil creado.</string>
+    <string name="sizer_message_filefail">Fallo al crear perfil.</string>
+    <string name="sizer_message_noselect">No hay nada seleccionado.</string>
+    <string name="system_app_remover">System App Remover</string>
+
 </resources>
