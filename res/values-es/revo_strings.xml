@@ -1378,4 +1378,27 @@
     <string name="toast_GrowFadeBottom_animation">Animación GrowFadeBottom</string>
     <string name="toast_Translucent_animation">Animación Translúcida</string>
 
+    <!-- Smooth ProgressBar -->
+    <string name="ram_bar_button_reset">Reinicia los colores</string>
+    <string name="ram_bar_reset">Reinicia</string>
+    <string name="progressbar_title">Barra de Progreso personalizada</string>
+    <string name="progressbar_mirror_title">Modo espejo</string>
+    <string name="progressbar_reverse_title">Inverso</string>
+    <string name="progressbar_speed_title">Velocidad</string>
+    <string name="progressbar_width_title">Ancho de la barra</string>
+    <string name="progressbar_length_title">Longitud de la separación</string>
+    <string name="progressbar_count_title">Sections Count</string>
+    <string name="progressbar_color_1_title">Color 1</string>
+    <string name="progressbar_color_2_title">Color 2</string>
+    <string name="progressbar_color_3_title">Color 3</string>
+    <string name="progressbar_color_4_title">Color 4</string>
+    <string name="sample_progressbar_text">Barra de progreso: previsualización</string>
+    <string name="progressbar_interpolator">Interpolar</string>
+    <string name="progressbar_none">Ninguno</string>
+    <string name="progressbar_acclerate">Acelerar</string>
+    <string name="progressbar_linear">Linear</string>
+    <string name="progressbar_acceleratedecelerate">Acelera Decelera</string>
+    <string name="progressbar_decelerate">Decelera</string>
+    <string name="progressbar_reset_message">¿Reiniciar la barra de progreso al estilo por defecto?</string>
+
 </resources>
