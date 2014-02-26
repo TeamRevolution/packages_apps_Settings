@@ -1361,4 +1361,21 @@
     <string name="custom_statusbar_header_title">Cabecera del panel de notificaciones</string>
     <string name="custom_statusbar_header_summary">El fondo de cabecera del panel de notificaciones cambia en función de la fecha y hora</string>
 
+    <!-- Toast Animations -->
+    <string name="toast_animation_title">Animaciones toast</string>
+    <string name="toast_none_animation">Ninguna</string>
+    <string name="toast_default_animation">Por defecto</string>
+    <string name="toast_fade_animation">Animación Desvanecer</string>
+    <string name="toast_SlideRight_animation">Animación Deslizar Derecha</string>
+    <string name="toast_SlideLeft_animation">Animación Deslizar Izquierda</string>
+    <string name="toast_Xylon_animation">Animación Xylon</string>
+    <string name="toast_Toko_animation">Animación Toko</string>
+    <string name="toast_Tn_animation">Animación TM</string>
+    <string name="toast_Honami_animation">Animación Honami</string>
+    <string name="toast_FastFade_animation">Animación FastFade</string>
+    <string name="toast_GrowFade_animation">Animación GrowFade</string>
+    <string name="toast_GrowFadeCenter_animation">Animación GrowFadeCenter</string>
+    <string name="toast_GrowFadeBottom_animation">Animación GrowFadeBottom</string>
+    <string name="toast_Translucent_animation">Animación Translúcida</string>
+
 </resources>
