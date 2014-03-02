@@ -125,6 +125,12 @@
 
     <declare-styleable name="ImageListPreferenceChOS">
         <attr name="entryImagez" format="reference" />
+    </declare-styleable>>
+
+    <declare-styleable name="NEWSeekBarPreference">
+        <attr name="maximum" format="integer" />
+        <attr name="minimum" format="integer" />
+        <attr name="interval" format="integer" />
     </declare-styleable>
 
 </resources>

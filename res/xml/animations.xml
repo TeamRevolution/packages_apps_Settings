@@ -40,4 +40,9 @@
         android:fragment="com.android.settings.ose.ProgressBar"
         android:title="@string/progressbar_title" />
 
+    <PreferenceScreen
+        android:key="interface_animation_scroll"
+        android:fragment="com.android.settings.beanstalk.ScrollAnimationInterfaceSettings"
+        android:title="@string/scrolling_title" />
+
 </PreferenceScreen>

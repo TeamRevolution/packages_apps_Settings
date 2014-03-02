@@ -1400,5 +1400,18 @@
     <string name="progressbar_acceleratedecelerate">Acelera Decelera</string>
     <string name="progressbar_decelerate">Decelera</string>
     <string name="progressbar_reset_message">¿Reiniciar la barra de progreso al estilo por defecto?</string>
+
+    <!-- Scrolling Animation Controls -->
+    <string name="scrolling_title">Mofidicadores Scrolling</string>
+    <string name="animation_fling_velocity_title">Velocidad de Fling</string>
+    <string name="animation_scroll_friction_title">Fricción de Scroll</string>
+    <string name="animation_overscroll_distance_title">Distancia Overscroll</string>
+    <string name="animation_overfling_distance_title">Distancia Overfling </string>
+    <string name="animation_duration_summary">Selecciona duración</string>
+    <string name="animation_no_scroll_title">Selecciona Modificadores scrolling</string>
+    <string name="animation_no_scroll_summary_on">Activado</string>
+    <string name="animation_no_scroll_summary_off">Desactivado</string>
+    <string name="scroll_disclaimer_summary">Nota: La mayoría de las apps necesitan reiniciarse para que los cambios tengan efecto</string>
+    <string name="animation_settings_reset_message">¿Reiniciar las animaciones a los ajustes por defecto?</string>
     
 </resources>
