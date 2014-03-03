@@ -123,4 +123,8 @@
         <attr name="margin" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="ImageListPreferenceChOS">
+        <attr name="entryImagez" format="reference" />
+    </declare-styleable>
+
 </resources>
