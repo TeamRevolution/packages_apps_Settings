@@ -38,7 +38,13 @@
         android:key="app_sidebar"
         android:title="@string/app_sidebar_title"        
         android:icon="@drawable/ic_settings_app_bar"
-        android:fragment="com.android.settings.mahdi.AppSidebar" />    
+        android:fragment="com.android.settings.mahdi.AppSidebar" /> 
+
+    <PreferenceScreen
+        android:key="gesture_anywhere"
+        android:icon="@drawable/ic_settings_gesture_anywhere"
+        android:fragment="com.android.settings.ose.gestureanywhere.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title" />   
 
     <Preference
         android:fragment="com.android.settings.omnidirt.Animations"
@@ -62,6 +68,5 @@
         android:key="recents_apps_panel"
         android:fragment="com.android.settings.slim.RecentsPanel"
         android:title="@string/recent_apps_panel_title" />
-
 
 </PreferenceScreen>
