@@ -631,5 +631,93 @@
     <string name="auto_brightness_preview">Previsualizar</string>
     <string name="auto_brightness_preview_dialog_title">Previsualizar curva de brillo</string>
 
+    <!-- Pie Control -->
+    <string name="pie_control_title">PIE</string>
+    <string name="pie_control_summary">Habilitar controles PIE</string>
+    <string name="pie_control_size">Tamaño de controles</string>
+    <string name="pie_control_trigger_positions">Opciones del lanzador</string>
+    <string name="pie_control_trigger_left">Lanzador en borde izquierdo</string>
+    <string name="pie_control_trigger_bottom">Lanzador en borde inferior</string>
+    <string name="pie_control_trigger_right">Lanzador en borde derecho</string>
+    <string name="pie_control_trigger_top">Lanzador en borde superior</string>
+    <string name="pie_control_trigger_top_summary">En borde superior no se mostrará la información de estado ni el reloj</string>
+    <string name="pie_button_style">Estilo de botones</string>
+    <string name="pie_button_color_title">Color de botones</string>
+    <string name="pie_button_alpha_title">Transparencia de botones</string>
+    <string name="pie_button_outline_color_title">Color borde de botones</string>
+    <string name="pie_button_pressed_color_title">Color botón presionado</string>
+    <string name="pie_button_long_pressed_color_title">Color pulsación larga</string>
+    <string name="pie_button_pressed_alpha_title">Transparencia de botón presionado</string>
+    <string name="pie_icon_style">Estilo de iconos de botones</string>
+    <string name="pie_icon_color_title">Color del icono</string>
+    <string name="pie_icon_color_mode_title">Modo del color de los iconos</string>
+    <string name="pie_icon_color_mode_dialog_title">Colorear</string>
+    <string name="pie_icon_color_mode_summary">Cambia el modo de color del icono del botón</string>
+    <string name="pie_trigger_note_title">Nota</string>
+    <string name="pie_trigger_note_summary">Para evitar conflictos con la barra de estado o la de navegación, los lanzadores en estos bordes se deshabilitarán automáticamente si uno o los dos están disponibles</string>
+    <string name="pie_background_color_title">Color de fondo</string>
+    <string name="pie_snap_color_title">Color puntos de anclaje</string>
+    <string name="pie_text_color_title">Color del texto</string>
+    <string name="pie_background_alpha_title">Transparencia del fondo</string>
+    <string name="pie_mirror_right_title">Efecto espejo en pie derecho</string>
+    <string name="pie_mirror_right_summary">Efecto espejo en el pie derecho en eje horizontañ</string>
+    <string name="pie_style">Estilo y dimensiones</string>
+    <string name="pie_style_title">Estilo</string>
+    <string name="pie_dimens_title">Tamaño</string>
+    <string name="pie_additional_options">Opciones adicionales</string>
+    <string name="pie_show_snap_title">Mostrar puntos de anclaje</string>
+    <string name="pie_show_snap_summary">Muestra puntos de anclaje para cambiar lanzadores en los bordes automáticamente</string>
+    <string name="pie_show_text_title">Mostrar estado y reloj</string>
+    <string name="pie_show_text_summary">Mostrar la información del estado del teléfono, la hora y la fecha</string>
+    <string name="pie_show_background_title">Mostrar fondo</string>
+    <string name="pie_show_background_summary">Habilitar fondo de pantalla de pie</string>
+    <string name="pie_button">Botones</string>
+    <string name="pie_button_second_layer">Segunda fila de botones</string>
+    <string name="pie_button_second_layer_summary">Cambiar botones de la segunda fila</string>
+    <string name="pie_button_style_summary">Cambiar estilo de botones pie</string>
+    <string name="pie_style_reset_message">Restablecer valores de estilo predeterminados?</string>
+    <string name="pie_warning_no_navigation_present">No hay otra método de navegación habilitado. Deshabilitando los controles pie puede dejar el dispositivo inusable. ¿Habilitar barra de navegación en su lugar?</string>
+    <string name="pie_trigger_warning">Al menos uno de los bordes principales debe estar habilitado (inferior, izquierda o superior).</string>
 
+    <!-- Notification hide labels -->
+    <string name="notification_hide_labels_title">Ocultar nombres del panel</string>
+    <string name="notification_hide_labels_disable">Ver nombres</string>
+    <string name="notification_hide_labels_carrier">Ocultar nombre operador</string>
+    <string name="notification_hide_labels_wifi">Ocultar nombre Wi-Fi</string>
+    <string name="notification_hide_labels_all">Ocultar todas</string>
+    <string name="notification_hide_labels_text">en el panel de notificación</string>
+
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">Pulldown inteligente</string>
+    <string name="smart_pulldown_summary">Abrir cortina de toggles cuando no hay notificaciones</string>
+    <string name="smart_pulldown_off">Apagado</string>
+    <string name="smart_pulldown_dismissable">Descartable</string>
+    <string name="smart_pulldown_persistent">Persistente</string>
+
+    <!-- QuickSettings: Quick Collapse -->
+    <string name="title_collapse_panel">Cierre rapido</string>
+    <string name="summary_collapse_panel">Cierra el panel de notificaciones al tocar un toggle</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Reinicio avanzado</string>
+    <string name="advanced_reboot_summary">Incluye las opciones en el menu power de recovery y bootloader</string>
+    <string name="advanced_reboot_dialog_title">Menú de reinicio avanzado</string>
+    <string name="advanced_reboot_disabled">Desactivado</string>
+    <string name="advanced_reboot_hide_on_keyguard">Ocultar en pant.bloqueo</string>
+    <string name="advanced_reboot_show_always">Ver siempre</string>
+
+    <!-- Notification Reminders -->
+    <string name="noti_reminder_category">Recordatorio de Notificaciones</string>
+    <string name="noti_reminder_enable_title">Activa el Recordatorio de Notificaciones</string>
+    <string name="noti_reminder_sound_title">Sonido de notificación</string>
+    <string name="noti_reminder_sound_looping">Hasta que sea descartada</string>
+    <string name="noti_reminder_ringtone">Tono de notificación</string>
+    <string name="noti_reminder_interval">Intervalo</string>
+    <string name="noti_reminder_interval_1s">1 seg</string>
+    <string name="noti_reminder_interval_1dot5s">1.5 seg</string>
+    <string name="noti_reminder_interval_2s">2 seg</string>
+    <string name="noti_reminder_interval_2dot5s">2.5 seg</string>
+    <string name="noti_reminder_interval_3s">3 seg</string>
+    <string name="noti_reminder_interval_3dot5s">3.5 seg</string>
+    <string name="noti_reminder_interval_4s">4 seg</string>
 </resources>
