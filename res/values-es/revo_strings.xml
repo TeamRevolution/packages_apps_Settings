@@ -750,6 +750,7 @@
     <string name="telo_radio_info_summary">El gestor de conexiones TeloRadio &#169; es una característica creada por Telo (TeloKang ROM) para Android Inc. Idea original de atl4ntis (Cataclysm ROM).</string>
  
     <!-- Recents clear all -->
+    <string name="recent_apps_panel_title" >Panel de recientes</string>
     <string name="show_recent_clear_all_button_title">Ver boton de borrar</string>	
     <string name="show_recent_clear_all_button_summary">Marca esta opción para mostrar u ocultar el botón de borrar en la pantalla de aplicaciones recientes</string>	
     <string name="recent_clear_all_button_location_title">Posición del boton de borrar</string>	
