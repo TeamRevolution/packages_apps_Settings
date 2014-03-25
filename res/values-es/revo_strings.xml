@@ -759,4 +759,25 @@
     <string name="recent_clear_all_button_location_top_right">Arriba derecha</string>	
     <string name="recent_clear_all_button_location_bottom_left">Abajo izquierda</string>	
     <string name="recent_clear_all_button_location_bottom_right">Abajo derecha</string>
+
+    <string name="ram_bar_title">RAMbar en recientes</string>
+    <string name="ram_bar_summary">Muestra una barra de uso de memoria RAM en recientes.</string>
+    <string name="ram_bar_note_title">Nota</string>
+    <string name="ram_bar_note_summary">Esta RAMbar muestra cómo Android está utilizando la memoria RAM disponible. Tenga en cuenta que el tener las aplicaciones abiertas en segundo plano y en caché ayuda a su dispositivo para abrir las aplicaciones más rápido.</string>
+
+    <!-- Ram-bar -->
+    <string name="ram_bar_mode_title">Modo de RAMbar</string>
+    <string name="ram_bar_cat">Barra memoria RAM</string>
+    <string name="ram_bar_mode_dialog_title">Mostrar RAMbar</string>
+    <string name="ram_bar_none">Nada</string>
+    <string name="ram_bar_apps">Aplicaciones</string>
+    <string name="ram_bar_cache">Aplicaciones y caché</string>
+    <string name="ram_bar_other">Aplicaciones, caché y otros</string>
+    <string name="ram_bar_style_cat">Estilo de RAMbar</string>
+    <string name="ram_bar_color_app_mem_color">Color aplicaciones RAM</string>
+    <string name="ram_bar_color_cache_mem_color">Color cache RAM</string>
+    <string name="ram_bar_color_total_mem_color">Color otros RAM </string>
+    <string name="ram_bar_color_enabled">Activado</string>
+    <string name="ram_bar_color_disabled">Desactivado</string>
+    <string name="ram_bar_button_reset">Resetear colores</string>
 </resources>

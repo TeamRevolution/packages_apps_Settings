@@ -38,4 +38,10 @@
             android:defaultValue="2"
             android:dependency="recent_menu_clear_all" />
 
+    <PreferenceScreen
+            android:key="ram_bar"
+            android:fragment="com.android.settings.omnikang.RamBar"
+            android:title="@string/ram_bar_title"
+            android:summary="@string/ram_bar_summary" />
+
 </PreferenceScreen>
