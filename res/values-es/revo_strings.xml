@@ -780,9 +780,4 @@
     <string name="ram_bar_color_enabled">Activado</string>
     <string name="ram_bar_color_disabled">Desactivado</string>
     <string name="ram_bar_button_reset">Resetear colores</string>
-
-    <!-- Custom Recent Settings -->
-    <string name="slim_recent_title">Slim-Recents</string>
-    <string name="custom_recent_title">Activa multitarea slim</string>
-    <string name="custom_recent_summary">Activa la casilla para tener multitarea Slim,desactiva para multitarea AOSP</string>
 </resources>

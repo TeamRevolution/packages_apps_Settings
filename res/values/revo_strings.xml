@@ -167,9 +167,4 @@
     <string name="ram_bar_color_disabled">Disabled</string>
     <string name="ram_bar_button_reset">Reset colors</string>
 
-    <!-- Custom Recent Settings -->
-    <string name="slim_recent_title">Slim-Recents</string>
-    <string name="custom_recent_title">Enable Slim Recents</string>
-    <string name="custom_recent_summary">Tick this box to switch between Slim/AOSB RecentApps</string>
-
 </resources>

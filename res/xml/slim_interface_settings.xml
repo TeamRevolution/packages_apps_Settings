@@ -39,11 +39,6 @@
         android:key="screen_recorder"
         android:title="@string/screen_recorder_title"
         android:fragment="com.android.settings.chameleonos.ScreenRecorderSettings" />
-
-    <PreferenceScreen
-        android:icon="@drawable/ic_settings_storage"
-        android:fragment="com.android.settings.slim.MultiSettings"
-        android:title="@string/slim_recent_title"/>
     
     <PreferenceScreen
         android:icon="@drawable/multi"
