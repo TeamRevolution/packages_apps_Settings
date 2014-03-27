@@ -1236,6 +1236,7 @@
         <item>70</item>
     </string-array>
 
+<<<<<<< HEAD
     <!-- Clear All Recents Button -->
     <string-array name="recent_clear_all_button_location_entries" translatable="false">
         <item>@string/recent_clear_all_button_location_top_left</item>
@@ -1249,8 +1250,7 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
-    </string-array>
-
+=======
     <!-- Quiet hours auto switch -->
     <string-array name="quiet_hours_auto_entries">
         <item>@string/disabled</item>
@@ -1262,6 +1262,7 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+>>>>>>> slim/kk4.4
     </string-array>
 
 </resources>

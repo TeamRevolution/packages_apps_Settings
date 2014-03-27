@@ -20,6 +20,9 @@
     <string name="quiet_hours_enabled">Включить тихие часы</string>
     <string name="quiet_hours_enabled_on">Тихие часы активированы</string>
     <string name="quiet_hours_enabled_off">Уведомления будут вести себя как обычно</string>
+    <string name="quiet_hours_auto_title">В зависимости от режима звонка</string>
+    <string name="quiet_hours_auto_silent">Тихие часы включат звонок, если он беззвучный</string>
+    <string name="quiet_hours_auto_vibrate">Тихие часы включат звонок, если он вибро или беззвучный</string>
     <string name="quiet_hours_start">Начало тихих часов</string>
     <string name="quiet_hours_start_summary">Когда начинаются тихие часы</string>
     <string name="quiet_hours_end">Конец тихих часов</string>
@@ -362,6 +365,8 @@
     <string name="lockscreen_disable_hints_summary">Отключить свечение, окружающее виджет в портретном режиме</string>
     <string name="lockscreen_use_widget_container_carousel_title">Включить круговое листание виджетов</string>
     <string name="lockscreen_use_widget_container_carousel_summary">Использовать анимацию в стиле карусели при листании виджетов экрана блокировки в портретном режиме</string>
+    <string name="lockscreen_widget_frame_title">Отключить рамки виджетов</string>
+    <string name="lockscreen_widget_frame_summary">Отключить фоновые рамки виджетов</string>
     <string name="lockscreen_target_info">Потяните ползунок к цели, чтобы назначить ярлык</string>
     <string name="lockscreen_target_title">Ярлыки кольца блокировки</string>
     <string name="lockscreen_target_summary">Установка или настройка ярлыков кольца блокировки</string>
@@ -692,6 +697,7 @@
     <string name="quiet_hours_auto_disabled">Отключено</string>
     <string name="quiet_hours_auto_enabled">Все номера</string>
     <string name="quiet_hours_auto_contacts">Только в контактах</string>
+    <string name="quiet_hours_auto_starred">Только избранные контакты</string>
     <string name="quiet_hours_bypass_group">Игнорировать тихие часы</string>
     <string name="quiet_hours_sms_code_null">[Будильник]</string>
     <string name="quiet_hours_sms_bypass_title">Игнорировать \"тихие часы\" для сообщений</string>
@@ -727,6 +733,10 @@
     <string name="lockscreen_lock_color_summary">Цвет значков ползунка блокировки</string>
     <string name="lockscreen_dots_color_title">Цвет точек</string>
     <string name="lockscreen_dots_color_summary">Цвет точек экрана блокировки</string>
+    <string name="lockscreen_targets_color_title">Цвет целей</string>
+    <string name="lockscreen_targets_color_summary">Цвет целей экрана блокировки</string>
+    <string name="lockscreen_misc_color_title">Цвет остального</string>
+    <string name="lockscreen_misc_color_summary">Цвет оставшихся пунктов</string>
     <string name="title_tile_sleep">Потушить экран</string>
     <string name="title_tile_location">Местоположение</string>
     <string name="dynamic_tile_ime_switcher">Переключатель IME</string>
@@ -818,6 +828,12 @@
     <string name="advanced_reboot_disabled">Выключено</string>
     <string name="advanced_reboot_hide_on_keyguard">Скрывать на экране блокировки</string>
     <string name="advanced_reboot_show_always">Всегда показывать</string>
+
+    <!-- Keyguard allow rotation -->
+    <string name="lockscreen_rotation_title">Вращение экрана блокировки</string>
+    <string name="lockscreen_rotation_portrait">Только портретный</string>
+    <string name="lockscreen_rotation_landscape">Только ландшафтный</string>
+    <string name="lockscreen_rotation_summary_extra">(в зависимости от положения)</string>
 
     <!-- Keyguard always show battery -->
     <string name="lockscreen_battery_status_title">Состояние батареи</string>
@@ -936,5 +952,15 @@
     <string name="noti_reminder_interval_3s">3 секунды</string>
     <string name="noti_reminder_interval_3dot5s">3.5 секунды</string>
     <string name="noti_reminder_interval_4s">4 секунды</string>
+
+    <!-- Recent panel -->
+    <string name="recent_panel_category">Панель недавних приложений</string>
+    <string name="recent_panel_scale_title">Размер</string>
+    <string name="recent_panel_scale_summary">Размер панели недавних приложений в процентах.</string>
+    <string name="recent_panel_100">100% (по умолчанию)</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
+    <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений у левого края.</string>
 
 </resources>
