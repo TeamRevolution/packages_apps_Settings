@@ -722,8 +722,7 @@
     <string name="noti_reminder_interval_4s">4 seg</string>
 
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Revolution build date</string>
-    <string name="build_date_default">2012-01-01-0000</string>
+    <string name="build_date">Fecha de compilación</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
