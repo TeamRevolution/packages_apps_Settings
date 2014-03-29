@@ -721,6 +721,53 @@
     <string name="noti_reminder_interval_3dot5s">3.5 seg</string>
     <string name="noti_reminder_interval_4s">4 seg</string>
 
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Revolution build date</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+
+    <!-- Halo -->
+    <string name="halo_settings_title">Halo</string>
+    <string name="halo_behavior_title">Comportamiento Halo</string>
+    <string name="halo_hide_title">Ocultar Halo después de la actividad</string>
+    <string name="halo_hide_summary">Halo aparecerá para las tareas de entrada y se ocultará después de un tiempo</string>
+    <string name="halo_reversed_title">Revertir Halo</string>
+    <string name="halo_reversed_summary">Aplica para la conmutación de tareas y mover gestos</string>
+    <string name="halo_state_title">Politica de Halo</string>
+    <string name="halo_state_summary">Activa lista de notificaciones blanca/negra</string>
+    <string name="halo_state_black">Lista negra</string>
+    <string name="halo_state_white">Lista blanca</string>
+    <string name="halo_pause_title">Pausar app activa</string>
+    <string name="halo_pause_summary">Al abrir una aplicación con Halo la aplicación subyacente se pondrá en pausa</string>
+    <string name="halo_ninja_title">Modo ninja</string>
+    <string name="halo_ninja_summary">Halo desaparecerá por completo cuando esté vacío</string>
+    <string name="halo_notification_msgbox_title">Activa mensaje pop-up</string>
+    <string name="halo_notification_msgbox_summary">Mostrar cuadro de mensaje para las notificaciones entrantes</string>
+    <string name="halo_unlock_ping_title">Ping de desbloqueo</string>
+    <string name="halo_unlock_ping_summary">Halo hace ping cuando el dispositivo está desbloqueado si se han recibido nuevas notificaciones</string>
+    <string name="halo_size_title">Tamaño Halo</string>
+    <string name="halo_size_summary">Define como de grande sera Halo</string>
+    <string name="halo_size_miniscule">Minisculo</string>
+    <string name="halo_size_small">Pequeño</string>
+    <string name="halo_size_default">Normal (Por defecto)</string>
+    <string name="halo_size_large">Grande</string>
+    <string name="halo_size_gigantic">Gigante</string>
+    <string name="halo_size_monster">Monstruoso</string>
+    <string name="halo_notification_count_title">Recuento de notificaciones</string>
+    <string name="halo_notification_count_summary">Mostrar cuenta de notificación en Halo</string>
+    <string name="halo_notification_count_none">Ninguna</string>
+    <string name="halo_notification_count_total">Total</string>
+    <string name="halo_notification_count_individual">Por app</string>
+    <string name="halo_notification_count_both">Ambos</string>
+    <string name="halo_msgbox_animation_title">Animación cuadro mensaje</string>
+    <string name="halo_msgbox_animation_summary">Animación cuadro de mensaje de Halo para las notificaciones entrantes</string>
+    <string name="halo_msgbox_animation_none">Ninguna</string>
+    <string name="halo_msgbox_animation_flip">Flip</string>
+    <string name="app_halo_label_black">Lista negra de HALO</string>
+    <string name="app_halo_label_white">Lista blanca de HALO</string>
+    <string name="halo_enable_title">Activa Halo</string>
+    <string name="halo_enable_summary_on">Halo esta activado</string>
+    <string name="halo_enable_summary_off">Halo esta desactivado</string>
+
     <!-- Telo Radio -->
     <string name="telo_radio_settings_title">Gestor de conexiones</string>
     <string name="telo_radio_enable_title">Habilitar gestor</string>
@@ -748,6 +795,14 @@
     <string name="telo_radio_info_category">Información sobre TeloRadio</string>    
     <string name="telo_radio_info_title">Acerca del gestor de conexiones</string>
     <string name="telo_radio_info_summary">El gestor de conexiones TeloRadio &#169; es una característica creada por Telo (TeloKang ROM) para Android Inc. Idea original de atl4ntis (Cataclysm ROM).</string>
+
+    <!-- Screen recorder -->
+    <string name="screen_recorder_title">Grabador de Pantalla</string>
+    <string name="screen_recorder_summary">Ajuste la configuración del Grabador de Pantalla</string>
+    <string name="screen_recorder_video_dimensions_title">Tamaño del video</string>
+    <string name="screen_recorder_video_bitrate_title">Bitrate</string>
+    <string name="screen_recorder_record_audio_title">Grabación de audio</string>
+    <string name="screen_recorder_record_audio_summary">Grabación de audio desde el microfono</string>
  
     <!-- Recents clear all -->
     <string name="recent_apps_panel_title" >Panel de recientes</string>
@@ -783,6 +838,6 @@
 
     <!-- Custom Recent Settings -->
     <string name="slim_recent_title">Slim-Recents</string>
-    <string name="custom_recent_title">Activa multitarea slim</string>
+    <string name="custom_recent_title">Activa multitarea Slim</string>
     <string name="custom_recent_summary">Activa la casilla para tener multitarea Slim,desactiva para multitarea AOSP</string>
 </resources>
