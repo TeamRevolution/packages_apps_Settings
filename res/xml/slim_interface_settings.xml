@@ -35,6 +35,12 @@
         android:title="@string/status_bar_title" />
 
     <PreferenceScreen
+        android:id="@+id/halo_settings"
+        android:fragment="com.android.settings.slim.Halo"
+        android:icon="@drawable/ic_settings_halo" 
+        android:title="@string/halo_settings_title" />
+
+    <PreferenceScreen
         android:key="active_display"
         android:icon="@drawable/ic_dt_activedisplay"
         android:fragment="com.android.settings.ose.ActiveDisplaySettings"
