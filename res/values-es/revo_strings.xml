@@ -1033,5 +1033,10 @@
     <string name="wakelock_blocker_reload">Recargar</string>
     <string name="wakelock_blocker_warning_title">Procede con precaución</string>
     <string name="wakelock_blocker_warning">Bloquear wakelocks puede causar inestabilidad en el sistema.</string>
+
+    <!--Lockscreen See Through-->
+     <string name="see_through_title">Ver a través</string>
+     <string name="see_through_summary">Muestra el contenido detrás de la pantalla de bloqueo, sus datos pueden ser visibles a los que te rodean</string>
+     <string name="blur_category">Efecto blur</string>
     
 </resources>
