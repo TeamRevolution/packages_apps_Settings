@@ -724,6 +724,9 @@
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Fecha de compilación</string>
 
+    <!-- Categories Revo-->
+    <string name="lockneo_settings_title">Pantalla bloqueo</string>
+
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
     <string name="halo_behavior_title">Comportamiento Halo</string>

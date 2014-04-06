@@ -19,6 +19,9 @@
     <string name="build_date">Revolution build date</string>
     <string name="build_date_default">2012-01-01-0000</string>
 
+    <!-- Categories Revo-->
+    <string name="lockneo_settings_title">Lockscreen</string>
+
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
     <string name="halo_behavior_title">Halo Behavior</string>

@@ -65,6 +65,12 @@
         android:fragment="com.android.settings.chameleonos.ScreenRecorderSettings" />
 
     <PreferenceScreen
+        android:id="@+id/lockneo_settings"
+        android:icon="@drawable/bloqueo"
+        android:fragment="com.android.settings.slim.lockSettings"
+        android:title="@string/lockneo_settings_title" />
+
+    <PreferenceScreen
         android:icon="@drawable/ic_settings_storage"
         android:fragment="com.android.settings.slim.MultiSettings"
         android:title="@string/slim_recent_title"/>
