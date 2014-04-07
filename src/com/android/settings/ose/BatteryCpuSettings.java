@@ -39,7 +39,7 @@ import android.widget.TextView;
 
 import com.android.settings.R;
 import com.android.settings.util.Constants;
-import com.android.settings.util.Helpers;
+import com.android.settings.util.Helpers2;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -113,7 +113,7 @@ public class BatteryCpuSettings extends Fragment
         mInflater = inflater;
         View view = mInflater.inflate(R.layout.battery_cpu_settings, root, false);
 
-        mCpuNum = Helpers.getNumOfCpus();
+        mCpuNum = Helpers2.getNumOfCpus();
 
         mCpuInfoListData = new ArrayList<String>(mCpuNum);
         for (int i = 0; i < mCpuNum; i++) {
@@ -130,7 +130,7 @@ public class BatteryCpuSettings extends Fragment
         mIsDynFreq = new File(DYN_MAX_FREQ_PATH).exists() && new File(DYN_MIN_FREQ_PATH).exists();
         mAvailableFrequencies = new String[0];
 
-        String availableFrequenciesLine = Helpers.readOneLine(STEPS_PATH);
+        String availableFrequenciesLine = Helpers2.readOneLine(STEPS_PATH);
         if (availableFrequenciesLine != null) {
             mAvailableFrequencies = availableFrequenciesLine.split(" ");
             Arrays.sort(mAvailableFrequencies, new Comparator<String>() {
@@ -144,13 +144,13 @@ public class BatteryCpuSettings extends Fragment
         int mFrequenciesNum = mAvailableFrequencies.length - 1;
         String getDefaultCpuValue = null;
         if (new File(DYN_MAX_FREQ_PATH).exists()) {
-            getDefaultCpuValue = Helpers.readOneLine(DYN_MAX_FREQ_PATH);
+            getDefaultCpuValue = Helpers2.readOneLine(DYN_MAX_FREQ_PATH);
         } else {
-            getDefaultCpuValue = Helpers.readOneLine(MAX_FREQ_PATH);
+            getDefaultCpuValue = Helpers2.readOneLine(MAX_FREQ_PATH);
         }
 
         if (mIsTegra3) {
-            String curTegraMaxSpeed = Helpers.readOneLine(TEGRA_MAX_FREQ_PATH);
+            String curTegraMaxSpeed = Helpers2.readOneLine(TEGRA_MAX_FREQ_PATH);
             int curTegraMax;
             try {
                 curTegraMax = Integer.parseInt(curTegraMaxSpeed);
@@ -173,7 +173,7 @@ public class BatteryCpuSettings extends Fragment
         mMaxSlider = (SeekBar) view.findViewById(R.id.battery_saver_mode_max_slider);
         mMaxSlider.setMax(mFrequenciesNum);
         mMaxSpeedText = (TextView) view.findViewById(R.id.battery_saver_mode_max_speed_text);
-        mMaxSpeedText.setText(Helpers.toMHz(mCurMaxSpeed));
+        mMaxSpeedText.setText(Helpers2.toMHz(mCurMaxSpeed));
         mMaxSlider.setProgress(Arrays.asList(mAvailableFrequencies).indexOf(mCurMaxSpeed));
         mMaxFreqSetting = mCurMaxSpeed;
         mMaxSlider.setOnSeekBarChangeListener(this);
@@ -220,7 +220,7 @@ public class BatteryCpuSettings extends Fragment
 
     @Override
     public void onPause() {
-        Helpers.updateAppWidget(context);
+        Helpers2.updateAppWidget(context);
         super.onPause();
 
         if (mCurCPUThread != null) {
@@ -238,7 +238,7 @@ public class BatteryCpuSettings extends Fragment
 
     public void setMaxSpeed(SeekBar seekBar, int progress) {
         String current = mAvailableFrequencies[progress];
-        mMaxSpeedText.setText(Helpers.toMHz(current));
+        mMaxSpeedText.setText(Helpers2.toMHz(current));
         mMaxFreqSetting = current;
         updateSettingsValue(current);
     }
@@ -259,8 +259,8 @@ public class BatteryCpuSettings extends Fragment
                     for (int i = 0; i < mCpuNum; i++) {
                         String cpuFreq = CPU_PATH + String.valueOf(i) + CPU_FREQ_TAIL;
                         String curFreq = "0";
-                        if (Helpers.fileExists(cpuFreq)) {
-                            curFreq = Helpers.readOneLine(cpuFreq);
+                        if (Helpers2.fileExists(cpuFreq)) {
+                            curFreq = Helpers2.readOneLine(cpuFreq);
                         }
                         freqs.add(curFreq);
                     }
