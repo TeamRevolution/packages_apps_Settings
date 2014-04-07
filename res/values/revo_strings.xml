@@ -21,6 +21,12 @@
 
     <!-- Categories Revo-->
     <string name="lockneo_settings_title">Lockscreen</string>
+    <string name="navbar_cat">Navigation bars</string>
+    <string name="display_cat">Display</string>
+    <string name="general_cat">General</string>
+    <string name="extras_cat">Extras</string>
+    <string name="multi_settings_title" >Multitask panel</string>
+    <string name="sistema_cat">System</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
