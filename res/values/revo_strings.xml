@@ -27,6 +27,7 @@
     <string name="extras_cat">Extras</string>
     <string name="multi_settings_title" >Multitask panel</string>
     <string name="sistema_cat">System</string>
+    <string name="network_cat">Network</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
@@ -644,5 +645,9 @@
     <!-- Double tap to sleep -->
     <string name="double_tap_to_sleep">Double tap to sleep</string>
     <string name="double_tap_to_sleep_summary">If this option is enabled you can put the device to sleep by double tapping the statusbar</string>
+
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_on_status_bar_title">Network activity indicator</string>
+    <string name="show_activity_indicators_on_status_bar_summary">Show network activity in statusbar</string>
 
 </resources>

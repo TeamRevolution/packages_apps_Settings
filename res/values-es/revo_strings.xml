@@ -731,6 +731,7 @@
     <string name="general_cat">General</string>
     <string name="extras_cat">Extras</string>
     <string name="sistema_cat">Sistema</string>
+    <string name="network_cat">Red</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
@@ -1285,5 +1286,9 @@
     <!-- Double tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Doble toque para bloquear</string>
     <string name="double_tap_summary">Activa para dar dos toque en la barra de estado y se bloquee</string>
+
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_on_status_bar_title">Indicadores de actividad de red</string>
+    <string name="show_activity_indicators_on_status_bar_summary">Ver los indicadores de actividad tipo Android J.B</string>
 
 </resources>
