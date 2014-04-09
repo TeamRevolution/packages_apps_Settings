@@ -51,9 +51,11 @@ public class LockscreenGeneral extends SettingsPreferenceFragment implements
 
     private static final String KEY_SEE_TRHOUGH = "see_through";
     private static final String KEY_BLUR_RADIUS = "blur_radius";
+    private static final String BATTERY_AROUND_LOCKSCREEN_RING = "battery_around_lockscreen_ring";
 
     private CheckBoxPreference mSeeThrough;
     private SeekBarPreference mBlurRadius;
+    private CheckBoxPreference mLockRingBattery;
 
     private Activity mActivity;
     private ContentResolver mResolver;
@@ -77,6 +79,10 @@ public class LockscreenGeneral extends SettingsPreferenceFragment implements
             Settings.System.LOCKSCREEN_BLUR_RADIUS, 12));
         mBlurRadius.setOnPreferenceChangeListener(this);
 
+        mLockRingBattery = (CheckBoxPreference) findPreference(BATTERY_AROUND_LOCKSCREEN_RING);
+        mLockRingBattery.setChecked(Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, 0) == 1);
+
     }
 
     @Override
@@ -86,6 +92,11 @@ public class LockscreenGeneral extends SettingsPreferenceFragment implements
         if (preference == mSeeThrough) {
               Settings.System.putInt(cr, Settings.System.LOCKSCREEN_SEE_THROUGH,
                       mSeeThrough.isChecked() ? 1 : 0);
+            return true;
+        } else if (preference == mLockRingBattery) {
+            Settings.System.putInt(mContext.getContentResolver(),
+                    Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, mLockRingBattery.isChecked()
+                    ? 1 : 0);
             return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);

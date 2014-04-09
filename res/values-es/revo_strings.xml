@@ -1043,7 +1043,7 @@
     <!--Lockscreen See Through-->
     <string name="see_through_title">Ver a través</string>
     <string name="see_through_summary">Muestra el contenido detrás de la pantalla de bloqueo, sus datos pueden ser visibles a los que te rodean</string>
-    <string name="blur_category">Efecto blur</string>
+    <string name="blur_category">Efecto blur y anillo de bateria</string>
 
     <!-- Lockscreen Notifications -->
     <!-- Categories -->
@@ -1310,5 +1310,8 @@
     <string name="sizer_message_filefail">Fallo al crear perfil.</string>
     <string name="sizer_message_noselect">No hay nada seleccionado.</string>
     <string name="system_app_remover">System App Remover</string>
+
+    <!-- Battery ring  -->
+    <string name="battery_around_lockscreen_ring">Nivel de batería alrededor del anillo</string>
 
 </resources>

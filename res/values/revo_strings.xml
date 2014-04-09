@@ -670,4 +670,7 @@
     <string name="sizer_message_noselect">Nothing selected.</string>
     <string name="system_app_remover">System App Remover</string>
 
+    <!-- Battery ring  -->
+    <string name="battery_around_lockscreen_ring">Battery level around lock ring</string>
+    
 </resources>

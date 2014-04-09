@@ -29,4 +29,9 @@
             android:max="25"
             android:defaultValue="12" />
 
+    <CheckBoxPreference
+        android:key="battery_around_lockscreen_ring"
+        android:title="@string/battery_around_lockscreen_ring"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
