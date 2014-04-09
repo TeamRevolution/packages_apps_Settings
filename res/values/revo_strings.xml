@@ -571,4 +571,7 @@
     <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
     <string name="profile_select">Select profile</string>
 
+    <!-- Themes title-->
+    <string name="temas_settings_title">Themes</string>
+
 </resources>

@@ -1212,5 +1212,7 @@
     <string name="profile_add_nfc_text">Esta etiqueta NFC se refiere a un perfil desconocido.Al añadir esta etiqueta NFC a un perfil existente permitirá seleccionar el perfil en el futuro.</string>
     <string name="profile_select">Seleccionar Perfil</string>
 
+    <!-- Themes title-->
+    <string name="temas_settings_title">Temas</string>
 
 </resources>
