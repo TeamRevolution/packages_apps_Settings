@@ -641,5 +641,8 @@
     <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
     <string name="unlock_set_unlock_mode_gesture">Gesture</string>
 
+    <!-- Double tap to sleep -->
+    <string name="double_tap_to_sleep">Double tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">If this option is enabled you can put the device to sleep by double tapping the statusbar</string>
 
 </resources>

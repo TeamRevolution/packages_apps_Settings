@@ -1282,4 +1282,8 @@
     <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
     <string name="unlock_set_unlock_mode_gesture">Gesto</string>
 
+    <!-- Double tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Doble toque para bloquear</string>
+    <string name="double_tap_summary">Activa para dar dos toque en la barra de estado y se bloquee</string>
+
 </resources>
