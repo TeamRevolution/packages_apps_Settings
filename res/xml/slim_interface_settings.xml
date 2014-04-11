@@ -23,11 +23,13 @@
         android:title="@string/navbar_cat">
 
     <PreferenceScreen
+        android:icon="@drawable/cortina"
         android:key="notification_drawer_qs"
         android:fragment="com.android.settings.slim.NotificationDrawerQsSettings"
         android:title="@string/notification_drawer_qs_title" />
 
     <PreferenceScreen
+        android:icon="@drawable/status"
         android:key="status_bar"
         android:fragment="com.android.settings.slim.StatusBar"
         android:title="@string/status_bar_title" />
@@ -103,6 +105,11 @@
         android:icon="@drawable/bloqueo"
         android:fragment="com.android.settings.slim.lockSettings"
         android:title="@string/lockneo_settings_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/multi_settings_cat">
 
     <PreferenceScreen
         android:icon="@drawable/ic_settings_storage"

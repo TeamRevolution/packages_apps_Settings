@@ -732,6 +732,7 @@
     <string name="extras_cat">Extras</string>
     <string name="sistema_cat">Sistema</string>
     <string name="network_cat">Red</string>
+    <string name="multi_settings_cat">Panel Multitarea</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
