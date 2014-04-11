@@ -673,4 +673,7 @@
     <!-- Battery ring  -->
     <string name="battery_around_lockscreen_ring">Battery level around lock ring</string>
     
+    <!-- Omniswitch  -->
+    <string name="omniswitch_settings_title">OmniSwitch</string>
+    
 </resources>

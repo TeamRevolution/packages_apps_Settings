@@ -101,6 +101,15 @@
         android:fragment="com.android.settings.slim.RecentsPanel"
         android:title="@string/recent_apps_panel_title" />
 
+    <PreferenceScreen
+        android:id="@+id/omniswitch"
+        android:icon="@drawable/ic_settings_system"
+        android:title="@string/omniswitch_settings_title" >
+            <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.omnirom.omniswitch"
+            android:targetClass="org.omnirom.omniswitch.SettingsActivity" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
