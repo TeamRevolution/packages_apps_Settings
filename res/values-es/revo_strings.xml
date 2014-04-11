@@ -1522,5 +1522,9 @@
     <string name="peek_screen_10seconds">10 segundos</string>
     <string name="peek_screen_15seconds">15 segundos</string>
     <string name="peek_screen_20seconds">20 segundos</string>
+
+    <!-- Statusbar Second Clock -->
+    <string name="clock_use_second">Segundos en reloj</string>
+    <string name="clock_use_second_summary">Ver segundero en el reloj de la barra de estado</string>
    
 </resources>
