@@ -740,8 +740,6 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
 
     <!-- Smooth ProgressBar -->
-    <string name="ram_bar_button_reset">Reset colors</string>
-    <string name="ram_bar_reset">Reset</string>
     <string name="progressbar_title">Custom ProgressBar</string>
     <string name="progressbar_mirror_title">Mirror Mode</string>
     <string name="progressbar_reverse_title">Reversed</string>
