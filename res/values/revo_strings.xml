@@ -739,6 +739,9 @@
     <string name="toast_GrowFadeBottom_animation">GrowFadeBottom Animation</string>
     <string name="toast_Translucent_animation">Translucent Animation</string>
 
+    <!-- Themes title-->
+    <string name="themes_settings_title">Themes</string>
+
     <!-- Smooth ProgressBar -->
     <string name="ram_bar_button_reset">Reset colors</string>
     <string name="ram_bar_reset">Reset</string>

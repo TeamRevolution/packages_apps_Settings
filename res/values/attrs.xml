@@ -125,7 +125,7 @@
 
     <declare-styleable name="ImageListPreferenceChOS">
         <attr name="entryImagez" format="reference" />
-    </declare-styleable>>
+    </declare-styleable>
 
     <declare-styleable name="NEWSeekBarPreference">
         <attr name="maximum" format="integer" />
