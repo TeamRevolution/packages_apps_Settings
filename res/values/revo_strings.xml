@@ -29,6 +29,7 @@
     <string name="sistema_cat">System</string>
     <string name="network_cat">Network</string>
     <string name="multi_settings_cat">Multitask</string>
+    <string name="extras_interface_title">Revolution extras</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
@@ -779,5 +780,8 @@
     <string name="animation_no_scroll_summary_off">Disabled</string>
     <string name="scroll_disclaimer_summary">Note: Most apps need to be restarted for custom values to take effect</string>
     <string name="animation_settings_reset_message">Reset all animation settings to default?</string>
+
+    <!-- Hide battery icon -->
+    <string name="hide_battery_icon_title">Hide battery icon</string>
     
 </resources>

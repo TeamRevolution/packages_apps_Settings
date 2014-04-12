@@ -1417,5 +1417,8 @@
     <string name="animation_no_scroll_summary_off">Desactivado</string>
     <string name="scroll_disclaimer_summary">Nota: La mayoría de las apps necesitan reiniciarse para que los cambios tengan efecto</string>
     <string name="animation_settings_reset_message">¿Reiniciar las animaciones a los ajustes por defecto?</string>
-    
+
+    <!-- Hide battery icon -->
+    <string name="hide_battery_icon_title">Ocultar icono bateria</string>
+   
 </resources>
