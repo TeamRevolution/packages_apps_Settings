@@ -1399,9 +1399,6 @@
     <string name="toast_GrowFadeBottom_animation">Animación GrowFadeBottom</string>
     <string name="toast_Translucent_animation">Animación Translúcida</string>
 
-    <!-- Themes title-->
-    <string name="themes_settings_title">Temas</string>
-
     <!-- Smooth ProgressBar -->
     <string name="ram_bar_button_reset">Reinicia los colores</string>
     <string name="ram_bar_reset">Reinicia</string>
@@ -1495,5 +1492,19 @@
     <string name="network_speed_color_title">Color indicador de velocidad</string>
     <string name="network_speed_color_style">Estilo color</string>
     <string name="network_speed_color_reset">Reiniciar</string>
+
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Temas</string>
+  
+    <!-- The following are entries under the themes menu -->
+    <string name="themepacks_settings_title">Temas</string>
+    <string name="styles_settings_title">Estilos</string>
+    <string name="icons_settings_title">Iconos</string>
+    <string name="fonts_settings_title">Fuentes</string>
+    <string name="wallpaper_settings_title">Fondos de pantalla</string>
+    <string name="lockscreen_wallpaper_settings_title">Fondos de pantalla bloqueo</string>
+    <string name="bootanim_settings_title">Animaciones encendido</string>
+    <string name="soundpack_settings_title">Sonidos</string>
    
 </resources>

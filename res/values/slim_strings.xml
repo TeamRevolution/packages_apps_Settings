@@ -1122,6 +1122,21 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="noti_reminder_interval_3dot5s">3.5 second</string>
     <string name="noti_reminder_interval_4s">4 seconds</string>
 
+    <!-- Themes Settings -->
+    <!-- Settings main menu entry -->
+    <string name="themes_settings_title">Themes</string>
+
+    <!-- The following are entries under the themes menu -->
+    <string name="themepacks_settings_title">Theme Packs</string>
+    <string name="styles_settings_title">Styles</string>
+    <string name="icons_settings_title">Icons</string>
+    <string name="fonts_settings_title">Fonts</string>
+    <string name="wallpaper_settings_title">Wallpapers</string>
+    <string name="lockscreen_wallpaper_settings_title">Lockscreen Wallpapers</string>
+    <string name="bootanim_settings_title">Boot Animations</string>
+    <string name="soundpack_settings_title">Sound Packs</string>
+
+
     <!-- Recent panel -->
     <string name="recent_panel_category">Recent apps panel</string>
     <string name="recent_panel_scale_title">Size</string>
