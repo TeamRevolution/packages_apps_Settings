@@ -121,12 +121,6 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:icon="@drawable/screenrec"
-        android:key="screen_recorder"
-        android:title="@string/screen_recorder_title"
-        android:fragment="com.android.settings.chameleonos.ScreenRecorderSettings" />
-
-    <PreferenceScreen
         android:id="@+id/lockneo_settings"
         android:icon="@drawable/bloqueo"
         android:fragment="com.android.settings.slim.lockSettings"
