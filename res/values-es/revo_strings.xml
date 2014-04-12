@@ -1433,5 +1433,7 @@
     <string name="custom_system_icon_color_title">Color iconos barra de estado</string>
     <string name="system_icon_color">Color icono</string>
     <string name="custom_color_summary">Invalidar el color del sistema</string>
+    <string name="custom_status_bar_apply_title">Aplicar</string>
+    <string name="custom_status_bar_apply_summary">Reinicia SystemUI para aplicar los cambios</string>
    
 </resources>
