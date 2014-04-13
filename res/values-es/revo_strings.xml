@@ -1435,5 +1435,8 @@
     <string name="custom_color_summary">Invalidar el color del sistema</string>
     <string name="custom_status_bar_apply_title">Aplicar</string>
     <string name="custom_status_bar_apply_summary">Reinicia SystemUI para aplicar los cambios</string>
+
+    <!-- Internal memory tile -->
+    <string name="internal_memory_tile">memoria interna</string>
    
 </resources>
