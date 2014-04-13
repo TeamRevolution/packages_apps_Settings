@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/fc_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <com.android.settings.slim.SystemSettingCheckBoxPreference
+            android:key="disable_fc_notifications"
+            android:title="@string/disable_fc_notifications_title"
+            android:summary="@string/disable_fc_notifications_summary" />
+
+</PreferenceScreen>
