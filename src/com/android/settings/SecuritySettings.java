@@ -569,7 +569,7 @@ public class SecuritySettings extends RestrictedSettingsFragment
     private void setupLockAfterPreference() {
         // Compatible with pre-Froyo
         long currentTimeout = Settings.Secure.getLong(getContentResolver(),
-                Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 5000);
+                Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 0);
         mLockAfter.setValue(String.valueOf(currentTimeout));
         mLockAfter.setOnPreferenceChangeListener(this);
         final long adminTimeout = (mDPM != null ? mDPM.getMaximumTimeToLock(null) : 0);
@@ -586,7 +586,7 @@ public class SecuritySettings extends RestrictedSettingsFragment
     private void updateLockAfterPreferenceSummary() {
         // Update summary message with current value
         long currentTimeout = Settings.Secure.getLong(getContentResolver(),
-                Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 5000);
+                Settings.Secure.LOCK_SCREEN_LOCK_AFTER_TIMEOUT, 0);
         final CharSequence[] entries = mLockAfter.getEntries();
         final CharSequence[] values = mLockAfter.getEntryValues();
         int best = 0;
