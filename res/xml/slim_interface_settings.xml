@@ -158,11 +158,6 @@
         android:title="@string/sistema_cat">
 
     <PreferenceScreen
-        android:icon="@drawable/ic_settings_battery"
-        android:fragment="com.android.settings.ose.BatterySaverSettings"
-        android:title="@string/battery_saver_title" />
-
-    <PreferenceScreen
         android:icon="@drawable/ic_settings_wakelock_blocker"
         android:id="@+id/wakelock_blocker"
         android:title="@string/wakelock_blocker"
