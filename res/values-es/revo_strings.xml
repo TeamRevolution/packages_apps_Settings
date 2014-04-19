@@ -129,10 +129,12 @@
     <string name="battery_status_icon">Icono</string>
     <string name="battery_status_percentage">Porcentaje</string>
     <string name="battery_status_icon_percentage">Icono con porcentaje</string>
+    <string name="battery_status_icon_percentage_jb">Icono con porcentaje (Tipo JB)</string>
     <string name="battery_status_circle">Circulo</string>
     <string name="battery_status_circle_percentage">Circulo con porcentaje</string>
     <string name="battery_status_dotted_circle_percentage">Circulo punteado con porcentaje</string>
     <string name="battery_status_dotted_circle">Circulo punteado</string>
+    <string name="battery_status_gone">Quitar bateria</string>
     <string name="battery_color_title">Color bateria</string>
     <string name="circle_battery_animation_speed">Velocidad animación circulo</string>
     <string name="circle_battery_animation_speed_none">Ninguna</string>
@@ -147,6 +149,7 @@
     <string name="notification_hide_carrier_title">Ocultar nombre operador</string>
     <string name="notification_shortcuts_settings_title">Accesos directos</string>
     <string name="notification_shortcuts_settings_summary">Ver accesos directos en la cortina de notificaciones</string>
+    <string name="notification_custom_carrier_label_title">Nombre operador personalizado</string>
     <string name="battery_reset_title">Reset</string>
     <string name="battery_light_title">Led de bateria</string>
     <string name="battery_low_pulse_title">Pulse si bateria baja</string>
@@ -154,6 +157,16 @@
     <string name="battery_light_low_color_title">Bateria baja</string>
     <string name="battery_light_medium_color_title">Media carga</string>
     <string name="battery_light_full_color_title">Cargado</string>
+
+    <!-- Keyguard allow rotation -->
+    <string name="lockscreen_rotation_title">Rotación pant.bloqueo</string>
+    <string name="lockscreen_rotation_portrait">Solo vertical</string>
+    <string name="lockscreen_rotation_landscape">Solo horizontal</string>
+    <string name="lockscreen_rotation_summary_extra">(depende rotación pantalla)</string>
+
+    <!-- Keyguard always show battery -->
+    <string name="lockscreen_battery_status_title">Estado bateria</string>
+    <string name="lockscreen_battery_status_summary">ver siempre estado bateria en pant.bloqueo</string>
 
     <!-- root -->
     <string name="root_access">Acceso ROOT</string>
@@ -1033,6 +1046,9 @@
     <string name="ad_pocket_mode_off">Off</string>
     <string name="ad_pocket_mode_notifications">Solo notificaciones</string>
     <string name="ad_pocket_mode_always">Siempre</string>
+
+    <!-- Font clock style -->
+    <string name="clock_font_style_title">Fuente</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker">Wakelock Blocker</string>
