@@ -782,9 +782,6 @@
     <string name="scroll_disclaimer_summary">Note: Most apps need to be restarted for custom values to take effect</string>
     <string name="animation_settings_reset_message">Reset all animation settings to default?</string>
 
-    <!-- Hide battery icon -->
-    <string name="hide_battery_icon_title">Hide battery icon</string>
-
     <!-- Status bar color -->
     <string name="custom_status_bar_header_title">Status Bar Color</string>
     <string name="custom_status_bar_color_title">Custom status bar color</string>
