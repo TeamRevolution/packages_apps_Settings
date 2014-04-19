@@ -51,7 +51,6 @@
     <string name="halo_notification_msgbox_summary">Show message box for incoming notifications</string>
     <string name="halo_unlock_ping_title">Ping on unlock</string>
     <string name="halo_unlock_ping_summary">Halo will ping when device is unlocked if new notifications were received</string>
-
     <string name="halo_size_title">Halo size</string>
     <string name="halo_size_summary">Defines how big Halo is going to be</string>
     <string name="halo_size_miniscule">Miniscule</string>
@@ -60,14 +59,12 @@
     <string name="halo_size_large">Large</string>
     <string name="halo_size_gigantic">Gigantic</string>
     <string name="halo_size_monster">Monster</string>
-
     <string name="halo_notification_count_title">Notification count</string>
     <string name="halo_notification_count_summary">Display notification counts on Halo</string>
     <string name="halo_notification_count_none">None</string>
     <string name="halo_notification_count_total">Total</string>
     <string name="halo_notification_count_individual">Per app</string>
     <string name="halo_notification_count_both">Both</string>
-
     <string name="halo_msgbox_animation_title">Message box animation</string>
     <string name="halo_msgbox_animation_summary">Halo message box animation for incoming notifications</string>
     <string name="halo_msgbox_animation_none">None</string>
@@ -76,10 +73,11 @@
     <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
     <string name="app_halo_label_black">Blacklist from HALO</string>
     <string name="app_halo_label_white">Whitelist from HALO</string>
-
     <string name="halo_enable_title">Enable Halo</string>
     <string name="halo_enable_summary_on">Halo is enabled</string>
     <string name="halo_enable_summary_off">Halo is disabled</string>
+    <string name="halo_color_title">Halo color</string>
+    <string name="halo_color_summary">Defines how color Halo is going to be</string>
    
     <!-- Telo Radio -->
     <string name="telo_radio_settings_title">Connection manager</string>

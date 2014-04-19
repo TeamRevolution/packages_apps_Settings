@@ -47,6 +47,7 @@ limitations under the License.
         android:title="@string/halo_color_title"
         android:summary="@string/halo_color_summary"
         android:defaultValue="@color/halo_color"
+        android:dependency="halo_enabled"
         alphaSlider="true" 
         hexValue="false" />
 

@@ -777,6 +777,8 @@
     <string name="halo_enable_title">Activa Halo</string>
     <string name="halo_enable_summary_on">Halo esta activado</string>
     <string name="halo_enable_summary_off">Halo esta desactivado</string>
+    <string name="halo_color_title">Color Halo</string>
+    <string name="halo_color_summary">Escoge el color de Halo</string>
 
     <!-- Telo Radio -->
     <string name="telo_radio_settings_title">Gestor de conexiones</string>
