@@ -1230,6 +1230,7 @@
         <item>2</item>
     </string-array>
 
+<<<<<<< HEAD
     <!-- App sidebar -->
     <string-array name="app_sidebar_position_entries" translatable="false">
         <item>@string/app_sidebar_position_left</item>
@@ -1392,4 +1393,6 @@
         <item>1800000</item>
     </string-array>
 
+=======
+>>>>>>> parent of 5f17989... Settings: Lockscreen Shake Security && Timer (2/2)
 </resources>
