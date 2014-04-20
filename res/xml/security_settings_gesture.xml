@@ -39,19 +39,6 @@
             android:persistent="false"/>
 
         <CheckBoxPreference
-            android:key="shake_to_secure"
-            android:title="@string/shake_to_secure_title"
-            android:summary="@string/shake_to_secure_summary" />
-
-        <ListPreference
-            android:key="shake_auto_timeout"
-            android:title="@string/shake_secure_timeout_title"
-            android:dependency="shake_to_secure"
-            android:entries="@array/shake_secure_timeout_entries"
-            android:entryValues="@array/shake_secure_timeout_values"
-            android:persistent="false"/>
-
-        <CheckBoxPreference
             android:key="power_button_instantly_locks"
             android:title="@string/lockgesture_settings_enable_power_button_instantly_locks"/>
 

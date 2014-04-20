@@ -302,8 +302,8 @@ public class SecuritySettings extends RestrictedSettingsFragment
             if (mSecurityCategory != null && mVisiblePattern != null) {
                 mSecurityCategory.removePreference(root.findPreference(KEY_VISIBLE_PATTERN));
             }
-	        if (mSecurityCategory != null && mVisibleGesture != null) {
-                mSecurityCategory.removePreference(root.findPreference(KEY_VISIBLE_GESTURE));
+	    if (securityCategory != null && mVisibleGesture != null) {
+                securityCategory.removePreference(root.findPreference(KEY_VISIBLE_GESTURE));
             }
         }
 
