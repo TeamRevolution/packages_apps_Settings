@@ -57,6 +57,7 @@ import static com.android.internal.util.slim.QSConstants.TILE_WIFIAP;
 import static com.android.internal.util.slim.QSConstants.TILE_REBOOT;
 import static com.android.internal.util.slim.QSConstants.TILE_INTERNALMEMORY;
 import static com.android.internal.util.slim.QSConstants.TILE_ONTHEGO;
+import static com.android.internal.util.slim.QSConstants.TILE_PROFILE;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -64,6 +65,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.android.internal.util.cm.QSUtils;
 import com.android.internal.telephony.Phone;
 import com.android.internal.util.slim.DeviceUtils;
 import com.android.settings.R;
@@ -178,6 +180,9 @@ public class QuickSettingsUtil {
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_ONTHEGO, R.string.title_tile_onthego,
                 "com.android.systemui:drawable/ic_qs_onthego"));
+        registerTile(new QuickSettingsUtil.TileInfo(
+                TILE_PROFILE, R.string.title_tile_profile,
+                "com.android.systemui:drawable/ic_qs_profiles"));
     }
 
     private static void registerTile(QuickSettingsUtil.TileInfo info) {
@@ -290,6 +295,13 @@ public class QuickSettingsUtil {
             default:
                 disableTile(TILE_NETWORKMODE);
                 break;
+        }
+
+        // Don't show the profiles tile if profiles are disabled
+        if (QSUtils.systemProfilesEnabled(resolver)) {
+            enableTile(TILE_PROFILE);
+        } else {
+            disableTile(TILE_PROFILE);
         }
     }
 
