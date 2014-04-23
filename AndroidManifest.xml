@@ -2028,7 +2028,9 @@
         <activity android:name=".profiles.ProfilesAppPicker" android:label="@string/select_application"
                 android:theme="@*android:style/Theme.Holo.Dialog" />
         <!-- Profiles - end -->
-
+  
+        <activity android:name=".slim.StatusBar" />
+		
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
