@@ -1473,5 +1473,27 @@
     <string name="title_quick_access">Mostrar en cortina de notificaciones</string>
     <string name="title_quick_access_linked">Botones vinculados</string>
     <string name="summary_quick_access_linked">Usar los mismos botones que el panel de ajustes rápidos</string>
+
+    <!-- Network speed -->
+    <string name="status_bar_network_speed_title">Velocidad de red</string>
+    <string name="status_bar_network_title">Red</string>
+    <string name="enable_network_speed">Indicador velocidad red</string>
+    <string name="enable_network_speed_summary">Mostrar la velocidad de la red en la barra de estado</string> 
+    <string name="hide_network_speed">Ocultar cuando no hay tráfico</string>
+    <string name="hide_network_speed_summary">Ocultar el indicador de velocidad si no hay tráfico de red</string>
+    <string name="network_speed_summary">Mostrar resumen de tráfico</string>
+    <string name="traffic_timeout_0s">No mostrar</string>
+    <string name="traffic_timeout_1s">1 segundo</string>
+    <string name="traffic_timeout_3s">3 segundos</string>
+    <string name="traffic_timeout_5s">5 segundos</string>
+    <string name="traffic_timeout_8s">8 segundos</string>
+    <string name="traffic_timeout_10s">10 segundos</string>
+    <string name="traffic_timeout_15s">15 segundos</string>
+    <string name="traffic_timeout_25s">25 segundos</string>
+
+    <!-- Network speed color style -->
+    <string name="network_speed_color_title">Color indicador de velocidad</string>
+    <string name="network_speed_color_style">Estilo color</string>
+    <string name="network_speed_color_reset">Reiniciar</string>
    
 </resources>

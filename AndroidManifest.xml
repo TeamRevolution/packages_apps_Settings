@@ -2030,6 +2030,9 @@
         <!-- Profiles - end -->
   
         <activity android:name=".slim.StatusBar" />
+
+        <!-- StatusBar Traffic -->
+        <activity android:name=".slim.StatusBarTrafficColor" />
 		
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"

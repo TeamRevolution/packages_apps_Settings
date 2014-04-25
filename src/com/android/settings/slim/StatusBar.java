@@ -29,6 +29,7 @@ import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 import android.util.Log;
+import com.android.settings.Utils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -71,15 +72,22 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
 
     }
 
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mStatusBarBrightnessControl) {
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL,
-                    (Boolean) newValue ? 1 : 0);
-            return true;
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(resolver,Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, value ? 1 : 0);
+        } else if (preference == mStatusBarNetworkActivity) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(resolver,
+                Settings.System.STATUS_BAR_NETWORK_ACTIVITY, value ? 1 : 0);
+        } else {
+            return false;
         }
-        return false;
+
+        return true;
     }
+
 
     @Override
     public void onResume() {

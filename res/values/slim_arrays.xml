@@ -1090,6 +1090,21 @@
         <item>3</item>
     </string-array>
 
+    <!-- StatusBar Net Stats -->
+    <string-array name="entries_status_bar_network_stats_update">
+        <item>&#189; second</item>
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>5 seconds</item>
+    </string-array>
+
+    <string-array name="values_status_bar_network_stats_update" translatable="false">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+    </string-array>
+
     <!-- Notification reminder sounds -->
     <string-array name="noti_reminder_sound_entries">
         <item>@string/disabled</item>
@@ -1362,5 +1377,28 @@
         <item>@drawable/ic_identicons_style_spirograph</item>
         <item>@drawable/ic_identicons_style_dotmatrix</item>
     </array>
+
+    <!-- Network speed -->
+    <string-array name="network_speed_summary_entries" translatable="false">
+        <item>@string/traffic_timeout_0s</item>
+        <item>@string/traffic_timeout_1s</item>
+        <item>@string/traffic_timeout_3s</item>
+        <item>@string/traffic_timeout_5s</item>
+        <item>@string/traffic_timeout_8s</item>
+        <item>@string/traffic_timeout_10s</item>
+        <item>@string/traffic_timeout_15s</item>
+        <item>@string/traffic_timeout_25s</item>
+    </string-array>
+
+    <string-array name="network_speed_summary_values" translatable="false">
+        <item>0</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>8000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>25000</item>
+    </string-array>
     
 </resources>
