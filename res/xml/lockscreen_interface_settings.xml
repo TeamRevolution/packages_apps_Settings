@@ -53,13 +53,9 @@
         android:summary="@string/lockscreen_notifications_summary">
     </PreferenceScreen>
 
-        <ListPreference
-            android:key="lockscreen_background_style"
-            android:persistent="false"
-            android:dialogTitle="@string/lockscreen_background_style_title"
-            android:summary="%s"
-            android:title="@string/lockscreen_background_style_title"
-            android:entries="@array/lockscreen_background_entries"
-            android:entryValues="@array/lockscreen_background_values" />
+        <Preference
+            android:id="@+id/lockscreen_wallpaper_settings"
+            android:title="@string/lockscreen_wallpaper_settings_title">
+        </Preference>
 
 </PreferenceScreen>
