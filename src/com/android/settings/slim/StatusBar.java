@@ -77,10 +77,6 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         if (preference == mStatusBarBrightnessControl) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(resolver,Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, value ? 1 : 0);
-        } else if (preference == mStatusBarNetworkActivity) {
-            boolean value = (Boolean) objValue;
-            Settings.System.putInt(resolver,
-                Settings.System.STATUS_BAR_NETWORK_ACTIVITY, value ? 1 : 0);
         } else {
             return false;
         }
