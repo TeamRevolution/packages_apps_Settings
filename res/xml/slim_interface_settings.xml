@@ -135,12 +135,6 @@
         android:icon="@drawable/ic_settings_storage"
         android:fragment="com.android.settings.slim.MultiSettings"
         android:title="@string/slim_recent_title"/>
-    
-    <PreferenceScreen
-        android:icon="@drawable/multi"
-        android:key="recents_apps_panel"
-        android:fragment="com.android.settings.slim.RecentsPanel"
-        android:title="@string/recent_apps_panel_title" />
 
     <PreferenceScreen
         android:id="@+id/omniswitch"
