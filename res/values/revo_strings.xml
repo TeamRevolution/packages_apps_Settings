@@ -817,6 +817,7 @@
     <string name="screen_on_notification_led_summary">Enable Notification Light even when screen is on</string>
 
     <!-- Quick access ribbon -->
+    <string name="ribbons_summary">Show toggles in notification drawer</string>
     <string name="category_quick_access">Quick Access ribbon</string>
     <string name="title_quick_access">Show in drawer</string>
     <string name="title_quick_access_linked">Linked layout</string>
