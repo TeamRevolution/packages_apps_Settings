@@ -1469,10 +1469,10 @@
     <string name="screen_on_notification_led_summary">Activa el led cuando la pantalla esta encendida</string>
 
     <!-- Quick access ribbon -->
-    <string name="category_quick_access">Barra de accesos rápidos</string>
+    <string name="category_quick_access">Toggles ribbons</string>
     <string name="title_quick_access">Mostrar en cortina de notificaciones</string>
     <string name="title_quick_access_linked">Botones vinculados</string>
-    <string name="summary_quick_access_linked">Usar los mismos botones que el panel de ajustes rápidos</string>
+    <string name="summary_quick_access_linked">Usar los mismos botones que el panel de toggles rápidos</string>
 
     <!-- Network speed -->
     <string name="status_bar_network_speed_title">Velocidad de red</string>
