@@ -1477,6 +1477,7 @@
 
     <!-- Network speed -->
     <string name="status_bar_network_speed_title">Velocidad de red</string>
+    <string name="network_speed_summary">Ver la velocidad de red en barra de estado</string>
     <string name="status_bar_network_title">Red</string>
     <string name="enable_network_speed">Indicador velocidad red</string>
     <string name="enable_network_speed_summary">Mostrar la velocidad de la red en la barra de estado</string> 
@@ -1491,6 +1492,8 @@
     <string name="traffic_timeout_10s">10 segundos</string>
     <string name="traffic_timeout_15s">15 segundos</string>
     <string name="traffic_timeout_25s">25 segundos</string>
+    <string name="status_bar_show_network_stats_title">Ver velocidades de red</string>
+    <string name="status_bar_network_stats_update_title">Frecuencia actualización</string>
 
     <!-- Network speed color style -->
     <string name="network_speed_color_title">Color indicador de velocidad</string>

@@ -138,6 +138,7 @@
 
     <!-- Network speed -->
     <string name="status_bar_network_speed_title">Network speed</string>
+    <string name="network_speed_summary">Show network speed in statusbar</string>
     <string name="status_bar_network_title">Network</string>
     <string name="enable_network_speed">Network speed indicator</string>
     <string name="enable_network_speed_summary">Show network speed in statusbar</string> 

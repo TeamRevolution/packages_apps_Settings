@@ -77,7 +77,8 @@
         <PreferenceScreen
             android:fragment="com.android.settings.slim.StatusBarNetSpeed"
             android:key="status_bar_network_speed"
-            android:title="@string/status_bar_network_speed_title" />
+            android:title="@string/status_bar_network_speed_title"
+            android:summary="@string/network_speed_summary" />
     </PreferenceCategory>
 
 </PreferenceScreen>
