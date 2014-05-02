@@ -46,6 +46,13 @@
             android:action="android.settings.DATA_ROAMING_SETTINGS" />
     </header>
 
+    <!-- Location -->
+    <header
+        android:fragment="com.android.settings.location.LocationSettings"
+        android:icon="@drawable/ic_settings_location"
+        android:title="@string/location_settings_title"
+        android:id="@+id/location_settings" />
+
     <!-- TeloRadio -->
     <header
         android:id="@+id/telo_radio_settings"
@@ -185,13 +192,6 @@
     <!-- PERSONAL -->
     <header android:id="@+id/personal_section"
         android:title="@string/header_category_personal" />
-
-    <!-- Location -->
-    <header
-        android:fragment="com.android.settings.location.LocationSettings"
-        android:icon="@drawable/ic_settings_location"
-        android:title="@string/location_settings_title"
-        android:id="@+id/location_settings" />
 
     <!-- Security -->
     <header
