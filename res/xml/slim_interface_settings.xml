@@ -60,6 +60,12 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_peek"
+        android:key="misc_tweaks"
+        android:fragment="com.android.settings.slim.MiscTweaks"
+        android:title="@string/peek_title"/>
+
+    <PreferenceScreen
         android:id="@+id/halo_settings"
         android:fragment="com.android.settings.slim.Halo"
         android:icon="@drawable/ic_settings_halo" 
@@ -178,5 +184,4 @@
         android:title="@string/fc_title" />
 
     </PreferenceCategory>
-    
 </PreferenceScreen>

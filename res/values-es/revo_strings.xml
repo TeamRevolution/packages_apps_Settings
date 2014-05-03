@@ -1499,5 +1499,9 @@
     <string name="network_speed_color_title">Color indicador de velocidad</string>
     <string name="network_speed_color_style">Estilo color</string>
     <string name="network_speed_color_reset">Reiniciar</string>
+
+    <!--Notification peek-->
+    <string name="notification_peek_title">Notificaciones peek</string>
+    <string name="notification_peek_summary">Mostrar últimas notificaciones al coger el dispositivo</string>
    
 </resources>
