@@ -60,9 +60,9 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:key="peek_settings"
+        android:fragment="com.android.settings.slim.PeekSettings"
         android:icon="@drawable/ic_peek"
-        android:key="misc_tweaks"
-        android:fragment="com.android.settings.slim.MiscTweaks"
         android:title="@string/peek_title"/>
 
     <PreferenceScreen
@@ -143,6 +143,12 @@
         android:title="@string/slim_recent_title"/>
 
     <PreferenceScreen
+        android:key="gesture_anywhere"
+        android:fragment="com.android.settings.chameleonos.labs.gestureanywhere.GestureAnywhereSettings"
+        android:icon="@drawable/ic_settings_gesture_anywhere"
+        android:title="@string/gesture_anywhere_title" />
+
+    <PreferenceScreen
         android:id="@+id/omniswitch"
         android:icon="@drawable/ic_settings_system"
         android:title="@string/omniswitch_settings_title" >
@@ -172,6 +178,7 @@
         android:title="@string/wakelock_blocker"
         android:fragment="com.android.settings.du.WakeLockBlocker" />
 
+<<<<<<< HEAD
     <PreferenceScreen
         android:icon="@drawable/ic_settings_slim_sizer"
         android:id="@+id/system_app_remover"
@@ -184,4 +191,6 @@
         android:title="@string/fc_title" />
 
     </PreferenceCategory>
+=======
+>>>>>>> 8a4632c... PEEK: configurable pickup & screen timeout (2/2)
 </PreferenceScreen>

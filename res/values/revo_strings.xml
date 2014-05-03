@@ -827,5 +827,24 @@
     <string name="notification_peek_title">Notification peek</string>
     <string name="notification_peek_summary">Show latest notification after picking up your device</string>
     <string name="peek_title">Peek PA</string>
+
+    <!-- PEEK pickup timeout -->
+    <string name="peek_pickup_timeout_title">Peek pickup timeout</string>
+    <string name="peek_pickup_10seconds">10 seconds (default)</string>
+    <string name="peek_pickup_15seconds">15 seconds</string>
+    <string name="peek_pickup_20seconds">20 seconds</string>
+    <string name="peek_pickup_25seconds">25 seconds</string>
+    <string name="peek_pickup_30seconds">30 seconds</string>
+    <string name="peek_pickup_40seconds">40 seconds</string>
+    <string name="peek_pickup_50seconds">50 seconds</string>
+    <string name="peek_pickup_60seconds">60 seconds</string>
+
+    <!-- PEEK screen timeout -->
+    <string name="peek_screen_timeout_title">Peek screen timeout</string>
+    <string name="peek_screen_5seconds">5 seconds (default)</string>
+    <string name="peek_screen_7seconds">7 seconds</string>
+    <string name="peek_screen_10seconds">10 seconds</string>
+    <string name="peek_screen_15seconds">15 seconds</string>
+    <string name="peek_screen_20seconds">20 seconds</string>
     
 </resources>

@@ -1503,5 +1503,24 @@
     <!--Notification peek-->
     <string name="notification_peek_title">Notificaciones peek</string>
     <string name="notification_peek_summary">Mostrar últimas notificaciones al coger el dispositivo</string>
+
+    <!-- PEEK pickup timeout -->
+    <string name="peek_pickup_timeout_title">Tiempo espera función peek</string>
+    <string name="peek_pickup_10seconds">10 segundos (Por defecto)</string>
+    <string name="peek_pickup_15seconds">15 segundos</string>
+    <string name="peek_pickup_20seconds">20 segundos</string>
+    <string name="peek_pickup_25seconds">25 segundos</string>
+    <string name="peek_pickup_30seconds">30 segundos</string>
+    <string name="peek_pickup_40seconds">40 segundos</string>
+    <string name="peek_pickup_50seconds">50 segundos</string>
+    <string name="peek_pickup_60seconds">60 segundos</string>
+
+    <!-- PEEK screen timeout -->
+    <string name="peek_screen_timeout_title">Tiempo espera pantalla peek</string>
+    <string name="peek_screen_5seconds">5 segundos (Por defecto)</string>
+    <string name="peek_screen_7seconds">7 segundos</string>
+    <string name="peek_screen_10seconds">10 segundos</string>
+    <string name="peek_screen_15seconds">15 segundos</string>
+    <string name="peek_screen_20seconds">20 segundos</string>
    
 </resources>
