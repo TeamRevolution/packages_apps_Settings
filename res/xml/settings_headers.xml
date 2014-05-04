@@ -122,6 +122,11 @@
             android:targetClass="com.juanmiwow.revolutionthemer.main" />
     </header>
 
+    <header
+        android:icon="@drawable/ic_settings_superuser"
+        android:title="@string/superuser"
+        android:fragment="com.koushikdutta.superuser.PolicyNativeFragment" />
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
