@@ -7,6 +7,15 @@
 
     <PreferenceCategory android:title="Revo app">
 
+    <PreferenceScreen
+        android:icon="@drawable/ic_menu_scan_network"
+        android:title="@string/ota_interface_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.otaupdater"
+            android:targetClass="com.otaupdater.OTAUpdaterActivity" />
+    </PreferenceScreen>
+
    <PreferenceScreen 
        android:icon="@drawable/ic_tab_selected_download" 
        android:title="RevoKitchen">
