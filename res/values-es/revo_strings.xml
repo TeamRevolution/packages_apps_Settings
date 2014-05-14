@@ -545,6 +545,7 @@
     <string name="title_tile_reboot">Reinicio</string>
     <string name="title_tile_theme">Cambio tema</string>
     <string name="tiles_reset_message">Restaurar toggles por defecto?</string>
+    <string name="title_tile_compass">Brújula</string>
     <string name="quicksettings_tiles_style">Estilo</string>
     <string name="summary_quicksettings_tiles_style">Ver o cambiar las opciones de estilo</string>
     <string name="title_tile_profile">Perfil</string>

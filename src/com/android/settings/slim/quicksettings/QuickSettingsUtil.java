@@ -59,6 +59,7 @@ import static com.android.internal.util.slim.QSConstants.TILE_REBOOT;
 import static com.android.internal.util.slim.QSConstants.TILE_INTERNALMEMORY;
 import static com.android.internal.util.slim.QSConstants.TILE_ONTHEGO;
 import static com.android.internal.util.slim.QSConstants.TILE_PROFILE;
+import static com.android.internal.util.slim.QSConstants.TILE_COMPASS;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -106,6 +107,9 @@ public class QuickSettingsUtil {
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_SLEEP, R.string.title_tile_sleep,
                 "com.android.systemui:drawable/ic_qs_sleep"));
+	registerTile(new QuickSettingsUtil.TileInfo(
+                TILE_COMPASS, R.string.title_tile_compass,
+                "com.android.systemui:drawable/ic_qs_compass_on"));
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_LOCATION, R.string.title_tile_location,
                 "com.android.systemui:drawable/ic_qs_location_on"));
@@ -239,6 +243,11 @@ public class QuickSettingsUtil {
             removeTile(TILE_TORCH);
         }
 
+	// Don't show the Compass tile if the device has no orientation sensor
+        if (!QSUtils.deviceSupportsCompass(context)) {
+            removeTile(TILE_COMPASS);
+        }
+
     }
 
     public static ArrayList<String> getAllDynamicTiles(Context context) {
@@ -272,6 +281,7 @@ public class QuickSettingsUtil {
         for (Boolean value : booleanList) {
             primitives[index++] = value;
         }
+
         return primitives;
     }
 
