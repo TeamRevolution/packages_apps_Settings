@@ -60,6 +60,7 @@ import static com.android.internal.util.slim.QSConstants.TILE_INTERNALMEMORY;
 import static com.android.internal.util.slim.QSConstants.TILE_ONTHEGO;
 import static com.android.internal.util.slim.QSConstants.TILE_PROFILE;
 import static com.android.internal.util.slim.QSConstants.TILE_COMPASS;
+import static com.android.internal.util.slim.QSConstants.TILE_NETWORKSPEED;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -191,6 +192,9 @@ public class QuickSettingsUtil {
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_SHAKE, R.string.title_tile_shake,
                 "com.android.systemui:drawable/ic_qs_shake_events"));
+	registerTile(new QuickSettingsUtil.TileInfo(
+                TILE_NETWORKSPEED, R.string.title_tile_network_speed,
+                "com.android.systemui:drawable/ic_qs_network_speed_on"));
     }
 
     private static void registerTile(QuickSettingsUtil.TileInfo info) {
