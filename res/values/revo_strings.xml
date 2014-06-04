@@ -31,6 +31,9 @@
     <string name="multi_settings_cat">Multitask</string>
     <string name="extras_interface_title">Revolution extras</string>
     <string name="fc_title">FC notification</string>
+    <string name="powerbattery_title">PowerBattery</string>
+    <string name="ribbons_title">Toggles ribbons</string>
+    <string name="ota_interface_title">Revolution OTA</string>
 
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
@@ -812,9 +815,38 @@
     <string name="screen_on_notification_led_summary">Enable Notification Light even when screen is on</string>
 
     <!-- Quick access ribbon -->
+    <string name="ribbons_summary">Show toggles in notification drawer</string>
     <string name="category_quick_access">Quick Access ribbon</string>
     <string name="title_quick_access">Show in drawer</string>
     <string name="title_quick_access_linked">Linked layout</string>
     <string name="summary_quick_access_linked">Use the same tiles and layout as the Quick Settings panel</string>
+
+    <!--Notification peek-->
+    <string name="notification_peek_title">Notification peek</string>
+    <string name="notification_peek_summary">Show latest notification after picking up your device</string>
+    <string name="peek_title">Peek PA</string>
+
+    <!-- PEEK pickup timeout -->
+    <string name="peek_pickup_timeout_title">Peek pickup timeout</string>
+    <string name="peek_pickup_10seconds">10 seconds (default)</string>
+    <string name="peek_pickup_15seconds">15 seconds</string>
+    <string name="peek_pickup_20seconds">20 seconds</string>
+    <string name="peek_pickup_25seconds">25 seconds</string>
+    <string name="peek_pickup_30seconds">30 seconds</string>
+    <string name="peek_pickup_40seconds">40 seconds</string>
+    <string name="peek_pickup_50seconds">50 seconds</string>
+    <string name="peek_pickup_60seconds">60 seconds</string>
+
+    <!-- PEEK screen timeout -->
+    <string name="peek_screen_timeout_title">Peek screen timeout</string>
+    <string name="peek_screen_5seconds">5 seconds (default)</string>
+    <string name="peek_screen_7seconds">7 seconds</string>
+    <string name="peek_screen_10seconds">10 seconds</string>
+    <string name="peek_screen_15seconds">15 seconds</string>
+    <string name="peek_screen_20seconds">20 seconds</string>
+
+    <!-- Statusbar Second Clock -->
+    <string name="clock_use_second">Use second clock</string>
+    <string name="clock_use_second_summary">Show second in clock</string>
     
 </resources>

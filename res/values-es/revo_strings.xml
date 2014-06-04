@@ -1466,13 +1466,15 @@
     <string name="screen_on_notification_led_summary">Activa el led cuando la pantalla esta encendida</string>
 
     <!-- Quick access ribbon -->
-    <string name="category_quick_access">Barra de accesos rápidos</string>
+    <string name="ribbons_summary">Ver toggles en cortina de notificaciones</string>
+    <string name="category_quick_access">Toggles ribbons</string>
     <string name="title_quick_access">Mostrar en cortina de notificaciones</string>
     <string name="title_quick_access_linked">Botones vinculados</string>
-    <string name="summary_quick_access_linked">Usar los mismos botones que el panel de ajustes rápidos</string>
+    <string name="summary_quick_access_linked">Usar los mismos botones que el panel de toggles rápidos</string>
 
     <!-- Network speed -->
     <string name="status_bar_network_speed_title">Velocidad de red</string>
+    <string name="network_speed_summary">Ver la velocidad de red en barra de estado</string>
     <string name="status_bar_network_title">Red</string>
     <string name="enable_network_speed">Indicador velocidad red</string>
     <string name="enable_network_speed_summary">Mostrar la velocidad de la red en la barra de estado</string> 
@@ -1487,6 +1489,8 @@
     <string name="traffic_timeout_10s">10 segundos</string>
     <string name="traffic_timeout_15s">15 segundos</string>
     <string name="traffic_timeout_25s">25 segundos</string>
+    <string name="status_bar_show_network_stats_title">Ver velocidades de red</string>
+    <string name="status_bar_network_stats_update_title">Frecuencia actualización</string>
 
     <!-- Network speed color style -->
     <string name="network_speed_color_title">Color indicador de velocidad</string>
@@ -1506,5 +1510,32 @@
     <string name="lockscreen_wallpaper_settings_title">Fondos de pantalla bloqueo</string>
     <string name="bootanim_settings_title">Animaciones encendido</string>
     <string name="soundpack_settings_title">Sonidos</string>
+
+    <!--Notification peek-->
+    <string name="notification_peek_title">Notificaciones peek</string>
+    <string name="notification_peek_summary">Mostrar últimas notificaciones al coger el dispositivo</string>
+
+    <!-- PEEK pickup timeout -->
+    <string name="peek_pickup_timeout_title">Tiempo espera función peek</string>
+    <string name="peek_pickup_10seconds">10 segundos (Por defecto)</string>
+    <string name="peek_pickup_15seconds">15 segundos</string>
+    <string name="peek_pickup_20seconds">20 segundos</string>
+    <string name="peek_pickup_25seconds">25 segundos</string>
+    <string name="peek_pickup_30seconds">30 segundos</string>
+    <string name="peek_pickup_40seconds">40 segundos</string>
+    <string name="peek_pickup_50seconds">50 segundos</string>
+    <string name="peek_pickup_60seconds">60 segundos</string>
+
+    <!-- PEEK screen timeout -->
+    <string name="peek_screen_timeout_title">Tiempo espera pantalla peek</string>
+    <string name="peek_screen_5seconds">5 segundos (Por defecto)</string>
+    <string name="peek_screen_7seconds">7 segundos</string>
+    <string name="peek_screen_10seconds">10 segundos</string>
+    <string name="peek_screen_15seconds">15 segundos</string>
+    <string name="peek_screen_20seconds">20 segundos</string>
+
+    <!-- Statusbar Second Clock -->
+    <string name="clock_use_second">Segundos en reloj</string>
+    <string name="clock_use_second_summary">Ver segundero en el reloj de la barra de estado</string>
    
 </resources>

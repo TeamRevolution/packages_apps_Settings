@@ -60,6 +60,12 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:key="peek_settings"
+        android:fragment="com.android.settings.slim.PeekSettings"
+        android:icon="@drawable/ic_peek"
+        android:title="@string/peek_title"/>
+
+    <PreferenceScreen
         android:id="@+id/halo_settings"
         android:fragment="com.android.settings.slim.Halo"
         android:icon="@drawable/ic_settings_halo" 
@@ -135,12 +141,6 @@
         android:icon="@drawable/ic_settings_storage"
         android:fragment="com.android.settings.slim.MultiSettings"
         android:title="@string/slim_recent_title"/>
-    
-    <PreferenceScreen
-        android:icon="@drawable/multi"
-        android:key="recents_apps_panel"
-        android:fragment="com.android.settings.slim.RecentsPanel"
-        android:title="@string/recent_apps_panel_title" />
 
     <PreferenceScreen
         android:id="@+id/omniswitch"
@@ -156,6 +156,15 @@
 
     <PreferenceCategory
         android:title="@string/sistema_cat">
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_settings_battery"
+        android:title="@string/powerbattery_title" >
+            <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.kisler.powerbattery"
+            android:targetClass="com.kisler.powerbattery.MainActivity" />
+    </PreferenceScreen>
 
     <PreferenceScreen
         android:icon="@drawable/ic_settings_wakelock_blocker"
@@ -175,5 +184,5 @@
         android:title="@string/fc_title" />
 
     </PreferenceCategory>
-    
+
 </PreferenceScreen>

@@ -1220,6 +1220,19 @@
         <item>3</item>
     </string-array>
 
+    <!-- recents expanded -->
+    <string-array name="recent_panel_expanded_mode_entries">
+        <item>@string/recent_panel_expanded_mode_auto</item>
+        <item>@string/recent_panel_expanded_mode_always</item>
+        <item>@string/recent_panel_expanded_mode_never</item>
+    </string-array>
+
+    <string-array name="recent_panel_expanded_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Quiet hours auto switch -->
     <string-array name="quiet_hours_auto_entries">
         <item>@string/disabled</item>
@@ -1400,5 +1413,45 @@
         <item>15000</item>
         <item>25000</item>
     </string-array>
-    
+
+    <!-- PEEK pickup timeout -->
+    <string-array name="peek_pickup_timeout_values" translatable="false">
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>300000</item>
+        <item>400000</item>
+        <item>500000</item>
+        <item>600000</item>
+    </string-array>
+
+    <string-array name="peek_pickup_timeout_entries" translatable="false">
+        <item>@string/peek_pickup_10seconds</item>
+        <item>@string/peek_pickup_15seconds</item>
+        <item>@string/peek_pickup_20seconds</item>
+        <item>@string/peek_pickup_25seconds</item>
+        <item>@string/peek_pickup_30seconds</item>
+        <item>@string/peek_pickup_40seconds</item>
+        <item>@string/peek_pickup_50seconds</item>
+        <item>@string/peek_pickup_60seconds</item>
+    </string-array>
+
+    <!-- PEEK screen timeout -->
+    <string-array name="peek_screen_timeout_values" translatable="false">
+        <item>5000</item>
+        <item>7000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>200000</item>
+    </string-array>
+
+    <string-array name="peek_screen_timeout_entries" translatable="false">
+        <item>@string/peek_screen_5seconds</item>
+        <item>@string/peek_screen_7seconds</item>
+        <item>@string/peek_screen_10seconds</item>
+        <item>@string/peek_screen_15seconds</item>
+        <item>@string/peek_screen_20seconds</item>
+    </string-array>
+
 </resources>
