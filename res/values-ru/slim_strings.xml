@@ -662,12 +662,10 @@
     <string name="battery_status_icon">Значок</string>
     <string name="battery_status_percentage">Проценты</string>
     <string name="battery_status_icon_percentage">Значок с процентами</string>
-    <string name="battery_status_icon_percentage_jb">Значок с процентами в стиле JB</string>
     <string name="battery_status_circle">Круг</string>
     <string name="battery_status_circle_percentage">Круг с процентами</string>
     <string name="battery_status_dotted_circle_percentage">Точечный круг с процентами</string>
     <string name="battery_status_dotted_circle">Точечный круг</string>
-    <string name="battery_status_gone">Скрыть батарею</string>
     <string name="battery_color_title">Цвет батареи</string>
     <string name="battery_bolt_color">Цвет молнии при зарядке</string>
     <string name="battery_style_reset_message">Сбросить все цвета батареи?</string>

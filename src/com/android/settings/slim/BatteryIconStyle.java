@@ -242,26 +242,21 @@ public class BatteryIconStyle extends SettingsPreferenceFragment
             mBatteryTextChargingColor.setEnabled(true);
             mBatteryTextChargingColor.setTitle(R.string.battery_bolt_color);
             mCircleAnimSpeed.setEnabled(false);
-        } else if (batteryIconStat == 2 || batteryIconStat == 3) {
+        } else if (batteryIconStat == 2) {
             mBatteryColor.setEnabled(true);
             mBatteryTextColor.setEnabled(true);
             mBatteryTextChargingColor.setEnabled(true);
             mCircleAnimSpeed.setEnabled(false);
+        } else if (batteryIconStat == 3 || batteryIconStat == 5) {
+            mBatteryColor.setEnabled(true);
+            mBatteryTextColor.setEnabled(false);
+            mBatteryTextChargingColor.setEnabled(false);
+            mCircleAnimSpeed.setEnabled(true);
         } else if (batteryIconStat == 4 || batteryIconStat == 6) {
             mBatteryColor.setEnabled(true);
-            mBatteryTextColor.setEnabled(false);
-            mBatteryTextChargingColor.setEnabled(false);
-            mCircleAnimSpeed.setEnabled(true);
-        } else if (batteryIconStat == 5 || batteryIconStat == 7) {
-            mBatteryColor.setEnabled(true);
             mBatteryTextColor.setEnabled(true);
             mBatteryTextChargingColor.setEnabled(true);
             mCircleAnimSpeed.setEnabled(true);
-        } else if (batteryIconStat == 8) {
-            mBatteryColor.setEnabled(false);
-            mBatteryTextColor.setEnabled(false);
-            mBatteryTextChargingColor.setEnabled(false);
-            mCircleAnimSpeed.setEnabled(false);
         } else {
             mBatteryColor.setEnabled(false);
             mBatteryTextColor.setEnabled(true);
