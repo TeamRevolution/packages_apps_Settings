@@ -1238,73 +1238,6 @@
     <!-- Themes title-->
     <string name="temas_settings_title">Temas</string>
 
-    <!-- Lock Gesture settings -->
-    <!-- Security & location settings screen, setting option name -->
-    <string name="lockgesture_change_lock_pattern_label">Cambiar gesto desbloqueo</string>
-    <!-- Security & location settings screen, change unlock gesture screen instruction when the user chooses "Change unlock gesture".  We first ask the user toe nter the current pattern, and this is the message seen -->
-    <string name="lockgesture_change_lock_pin_label">Cambia pin desbloqueo</string>
-    <!-- Security & location settings screen, change unlock gesture screen instruction when the user chooses "Change unlock gesture".  We first ask the user toe nter the current pattern, and this is the message seen -->
-    <string name="lockgesture_need_to_unlock">Confirma gesto guardado</string>
-    <!-- Do not translate. -->
-    <string name="lockgesture_need_to_unlock_footer" />
-    <!-- Security & location settings screen, change unlock gesture screen instruction if user draws incorrect pattern -->
-    <string name="lockgesture_need_to_unlock_wrong">Intentalo de nuevo:</string>
-    <!-- Do not translate. -->
-    <string name="lockgesture_need_to_unlock_wrong_footer" />
-    <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
-    <string name="lockgesture_recording_intro_header">Dibuja un gesto de desbloqueo:</string>
-    <!-- Security & location settings screen, change unlock gesture screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
-    <string name="lockgesture_recording_intro_footer">Presiona Menu para ayuda.</string>
-    <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen while drawing pattern -->
-    <string name="lockgesture_recording_inprogress">Suelte el dedo cuando acabe.</string>
-    <!-- Security & location settings screen, change unlock gesture screen message on top of screen after drawing pattern -->
-    <string name="lockgesture_pattern_entered_header">Gesto guardado.</string>
-    <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen to confirm pattern -->
-    <string name="lockgesture_need_to_confirm">Dibuja el gesto de nuevo para confirmar:</string>
-    <string name="lockgesture_pattern_confirmed_header">Tu nuevo gesto de desbloqueo:</string>
-    <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen.  After they draw a gesture and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
-    <string name="lockgesture_confirm_button_text">Confirmar</string>
-    <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen.  After they draw a gesture and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
-    <string name="lockgesture_restart_button_text">Volver a dibujar</string>
-    <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen. If they are supposed to enter their current gesture before being able to draw another one, and they screw up, they hit this button to try again -->
-    <string name="lockgesture_retry_button_text">Quitar</string>
-    <!-- Security & location settings screen, change unlock gesture screen button, on bottom of screen. Once they draw a new gesture and confirm it by drawing it again, they press this button to exit -->
-    <string name="lockgesture_continue_button_text">Continuar</string>
-    <!-- Security & location settings screen, unlock screen activity title -->
-    <string name="lockgesture_settings_title">Gesto de desbloqueo</string>
-    <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
-    <string name="lockgesture_settings_enable_title">Require gesto</string>
-    <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
-    <string name="lockgesture_settings_enable_summary">Dibujar el gesto para desbloquear la pantalla</string>
-    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible gesture is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
-    <string name="lockgesture_settings_enable_visible_pattern_title">Hacer el gesto visible</string>
-    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">El botón de encendido se bloquea al instante</string>
-    <!-- Security & location settings screen, setting option name when user has never set an unlock gesture -->
-    <string name="lockgesture_settings_choose_lock_pattern">Establecer gesto de desbloqueo</string>
-    <!-- Security & location settings screen, setting option name when user has previously set an unlock gesture and wants to change to a new pattern -->
-    <string name="lockgesture_settings_change_lock_pattern">Cambia gesto de desbloqueo</string>
-    <!-- Security & location settings screen, the help instructions (an animation) caption -->
-    <string name="lockgesture_settings_help_how_to_record">Cómo dibujar un gesto de desbloqueo</string>
-    <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen after too many incorrect attempts -->
-    <string name="lockgesture_too_many_failed_confirmation_attempts_header">Demasiados intentos incorrectos!</string>
-    <!-- Security & location settings screen, change unlock gesture screen countdown hint on bottom of screen after too many incorrect attempts -->
-    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Intentalo de nuevo en %d segundos.</string>
-    <!-- Toast shown if setting gesture was successful -->
-    <string name="lockpassword_gesture_set_toast">Gesto se ha establecido</string>
-    <!-- Header on gesture confirm screen [CHAR LIMIT=30] -->
-    <string name="lockpassword_confirm_your_gesture_header">Confirma tu gesto</string>
-    <!-- Header on first screen of choose gesture flow [CHAR LIMIT=30] -->
-    <string name="lockpassword_choose_your_gesture_header">Dibuja tu gesto</string>
-
-    <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=22] -->
-    <string name="unlock_set_unlock_gesture_title">Gesto</string>
-    <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=45] -->
-    <string name="unlock_set_unlock_gesture_summary">Baja seguridad, experimental</string>
-
-    <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
-    <string name="unlock_set_unlock_mode_gesture">Gesto</string>
-
     <!-- Double tap to sleep -->
     <string name="status_bar_double_tap_to_sleep_title">Doble toque para bloquear</string>
     <string name="double_tap_summary">Activa para dar dos toque en la barra de estado y se bloquee</string>
@@ -1537,5 +1470,5 @@
     <!-- Statusbar Second Clock -->
     <string name="clock_use_second">Segundos en reloj</string>
     <string name="clock_use_second_summary">Ver segundero en el reloj de la barra de estado</string>
-   
+
 </resources>
