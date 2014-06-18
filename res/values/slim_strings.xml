@@ -198,6 +198,26 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across status bar</string>
     <string name="status_bar_toggle_info">Automatic brightness is enabled</string>
 
+    <!-- Shake Events -->
+    <string name="shake_events_title">Shake events</string>
+    <string name="shake_events_enabled_title">Enable shake listener</string>
+    <string name="shake_events_normal_title">Active shake events</string>
+    <string name="shake_events_disabled_title">Disabled apps</string>
+    <string name="shake_events_disabled_summary">Shake will be disabled while in these apps</string>
+    <string name="shake_event_x_title">Activity to launch when shaken horizontally</string>
+    <string name="shake_event_y_title">Activity to launch when shaken vertically</string>
+    <string name="shake_event_z_title">Activity to launch when shaken back-and-forth</string>
+
+    <!-- Shake sensitivity -->
+    <string name="shake_sensitivity_title">Shake sensitivity</string>
+    <string name="shake_sensitivity_summary">Global sensitivity of all shake preferences</string>
+    <string name="shake_sensitivity_even_less_sensitive">Very insensitive</string>
+    <string name="shake_sensitivity_less_sensitive">Less sensitive</string>
+    <string name="shake_sensitivity_more_sensitive">More sensitive</string>
+    <string name="shake_sensitivity_very_sensitive">Very sensitive</string>
+    <string name="shake_sensitivity_super_sensitive">Super sensitive</string>
+    <string name="shake_sensitivity_ultra_sensitive">Ultra sensitive</string>
+
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Wakeup options</string>
     <string name="pref_volume_wake_title">Volume rocker wake</string>
@@ -382,6 +402,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_stats_title">Statistics</string>
 
     <!-- Button shorcut actions -->
+    <string name="shortcut_action_keyguard_camera">Keyguard camera</string>
     <string name="shortcut_action_navbar">Navigation bar</string>
     <string name="shortcut_action_pie">Pie controls</string>
     <string name="shortcut_action_airplane">Airplane mode</string>
@@ -430,6 +451,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <string name="shortcut_action_help_shortcut">shortcut</string>
     <string name="shortcut_action_help_button">button</string>
+    <string name="shortcut_action_help_app">app</string>
     <string name="shortcut_action_help_icon">, while selecting the icon will bring up customization options</string>
     <string name="shortcut_action_help_main">To add a %1$s, select the Add icon.  Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right.  Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the Reset icon.</string>
     <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
@@ -528,10 +550,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_status_icon">Icon</string>
     <string name="battery_status_percentage">Percentage</string>
     <string name="battery_status_icon_percentage">Icon with percentage</string>
+    <string name="battery_status_icon_percentage_jb">Icon with percentage (JB style)</string>
     <string name="battery_status_circle">Circle</string>
     <string name="battery_status_circle_percentage">Circle with percentage</string>
     <string name="battery_status_dotted_circle_percentage">Dotted Circle with percentage</string>
     <string name="battery_status_dotted_circle">Dotted Circle</string>
+    <string name="battery_status_gone">No battery</string>
     <string name="battery_color_title">Battery color</string>
     <string name="circle_battery_animation_speed">Circle animation speed</string>
     <string name="circle_battery_animation_speed_none">None</string>
@@ -541,6 +565,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_text_color">Percentage text color</string>
     <string name="battery_bolt_color">Bolt charging color</string>
     <string name="battery_text_charging_color">Percentage text charging color</string>
+    <string name="battery_circle_charging_color">Circle charging color</string>
     <string name="battery_style_reset_message">Reset all battery colors?</string>
 
     <!-- Category title for power sound notification specific Settings.
@@ -775,6 +800,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Lockscreen widget settings -->
     <string name="lockscreen_widgets_title">Widgets</string>
+    <string name="lockscreen_allow_all_title">Allow all widgets</string>
+    <string name="lockscreen_allow_all_summary">Allow legacy widgets that don\'t natively support lock screen placement</string>
+    <string name="lockscreen_allow_all_warning">Some widgets may not behave as expected when placed on the lock screen.  Other widgets may expose your personal data to anyone who accesses your device.  Please be mindful of these warnings before continuing.</string>
     <string name="lockscreen_camera_widget_title">Enable camera widget</string>
     <string name="lockscreen_camera_widget_summary">Show secure camera widget on the lock screen</string>
     <string name="lockscreen_maximize_widgets_title">Start maximized</string>
@@ -792,6 +820,22 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="lock_numpad_random_off">Disabled</string>
     <string name="lock_numpad_random_always">Always</string>
     <string name="lock_numpad_random_on_request">On request</string>
+
+    <!-- Shake to secure -->
+    <string name="shake_to_secure_title">Shake the lockscreen to enable security</string>
+    <string name="shake_to_secure_summary">Security will be disabled after each successful unlock</string>
+    <string name="shake_to_secure_dlg_title">Warning:</string>
+    <string name="shake_to_secure_dlg_message">Your device will be insecure until you explicitly shake to enable a temporary secure lock.  Once secure: if your device is successfully unlocked it will become insecure until you shake again.</string>
+    <string name="shake_secure_timeout_title">Automatically resecure</string>
+    <string name="shake_all">Shake any direction</string>
+    <string name="shake_horizontal">Shake horizontally</string>
+    <string name="shake_vertical">Shake vertically</string>
+    <string name="shake_back_forth">Shake back-and-forth</string>
+    <string name="shake_secure_timeout_disabled">Never automatically secure</string>
+    <string name="shake_secure_timeout_1min">1 minute after screen turned off</string>
+    <string name="shake_secure_timeout_5min">5 minutes after screen turned off</string>
+    <string name="shake_secure_timeout_10min">10 minutes after screen turned off</string>
+    <string name="shake_secure_timeout_30min">30 minutes after screen turned off</string>
 
     <!-- Lock before unlock -->
     <string name="lock_before_unlock_title">Show slider before secure unlock</string>
@@ -864,6 +908,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="title_tile_music">Music</string>
     <string name="title_tile_reboot">Reboot</string>
     <string name="title_tile_theme">Theme switcher</string>
+    <string name="title_tile_shake">Shake events</string>
     <string name="dynamic_tile_ime_switcher">IME switcher</string>
     <string name="dynamic_tile_usb_tether">USB tether</string>
     <string name="dynamic_tile_alarm">Alarm</string>
@@ -879,6 +924,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="custom_toggle_extras">Custom tile extras</string>
     <string name="custom_toggle_collapse_check">Collapse notification shade</string>
     <string name="custom_toggle_match_state_check">Click action matches icon</string>
+    <string name="custom_toggle_double_click_check">Double-tap to switch to the previous action</string>
     <string name="custom_tile_long_press">Longpress:</string>
     <string name="custom_tile_null_warning">An action must be set first</string>
     <string name="custom_tile_resolve_name">Unknown</string>
@@ -918,10 +964,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- QuickSettings: Smart Pulldown -->
     <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open Quick Settings when there are no %1$s notifications present</string>
+    <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
     <string name="smart_pulldown_off">Off</string>
-    <string name="smart_pulldown_dismissable">Dismissable</string>
-    <string name="smart_pulldown_persistent">Persistent</string>
+    <string name="smart_pulldown_dismissable">No dismissable</string>
+    <string name="smart_pulldown_persistent">No persistent</string>
+    <string name="smart_pulldown_all">No dismissable or persistent</string>
 
     <!-- QuickSettings: Quick Collapse -->
     <string name="title_collapse_panel">Quick collapse</string>
@@ -1011,6 +1058,22 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="keys_action_long">Long press</string>
     <string name="keys_action_double">Double tap</string>
     <string name="no_home_key">You have no button assigned any more to the \"Home\" action!\n\nThis can make your device unusable!</string>
+
+    <!-- Hardware keys backlight -->
+    <string name="button_backlight_title">Backlight</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
+    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
+    <string name="button_backlight_seekbar_title">Button brightness</string>
+    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
+    <string name="backlight_timeout_title">Illumination timeout</string>
+    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> second</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> seconds</item>
+    </plurals>
+    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Enabled</string>
 
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">The APN will be deleted.</string>
@@ -1148,9 +1211,20 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
     <string name="recent_panel_expanded_mode_always">Always</string>
     <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_show_topmost_title">Show topmost task</string>
+    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge.</string>
+
+    <!-- App moving -->
+    <string name="app_moving_enable">Enable app moving</string>
+    <string name="app_moving_disable">Disable app moving</string>
+    <string name="app_moving_reboot_title">Reboot now?</string>
+    <string name="app_moving_reboot_enabled_desc">Successfully enabled application moving.\n\nThe device needs to be rebooted for the setting to take effect.</string>
+    <string name="app_moving_reboot_disabled_desc">Successfully disabled application moving.\n\nThe device needs to be rebooted for the setting to take effect.</string>
+    <string name="app_moving_reboot_now_button">Reboot now</string>
+    <string name="app_moving_reboot_later_button">Reboot later</string>
 
 </resources>

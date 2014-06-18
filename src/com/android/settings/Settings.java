@@ -64,8 +64,8 @@ import android.widget.TextView;
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.ActivityPicker;
 import com.android.settings.accessibility.AccessibilitySettings;
+import com.android.settings.accessibility.CaptionPropertiesFragment;
 import com.android.settings.accessibility.ToggleAccessibilityServicePreferenceFragment;
-import com.android.settings.accessibility.ToggleCaptioningPreferenceFragment;
 import com.android.settings.accounts.AccountSyncSettings;
 import com.android.settings.accounts.AuthenticatorHelper;
 import com.android.settings.accounts.ManageAccountsSettings;
@@ -93,6 +93,7 @@ import com.android.settings.slim.BatteryIconStyle;
 import com.android.settings.slim.blacklist.BlacklistSettings;
 import com.android.settings.slim.DisplayRotation;
 import com.android.settings.slim.quicksettings.QuickSettingsTiles;
+import com.android.settings.slim.ShakeEvents;
 import com.android.settings.slim.QuietHours;
 import com.android.settings.profiles.ProfileEnabler;
 import com.android.settings.slim.themes.ThemeEnabler;
@@ -355,7 +356,7 @@ public class Settings extends PreferenceActivity
         PrivacySettings.class.getName(),
         DeviceAdminSettings.class.getName(),
         AccessibilitySettings.class.getName(),
-        ToggleCaptioningPreferenceFragment.class.getName(),
+        CaptionPropertiesFragment.class.getName(),
         TextToSpeechSettings.class.getName(),
         Memory.class.getName(),
         DevelopmentSettings.class.getName(),
@@ -380,7 +381,8 @@ public class Settings extends PreferenceActivity
         QuickSettingsTiles.class.getName(),
         BatteryIconStyle.class.getName(),
         DisplayRotation.class.getName(),
-        ApnSettings.class.getName()
+        ApnSettings.class.getName(),
+        ShakeEvents.class.getName()
     };
 
     @Override
@@ -1231,4 +1233,5 @@ public class Settings extends PreferenceActivity
     public static class DisplayRotationSettingsActivity extends Settings { /* empty */ }
     public static class ASSRamBarActivity extends Settings { /* empty */ }
     public static class ProfilesSettingsActivity extends Settings { /* empty */ }
+    public static class ShakeEventsSettingsActivity extends Settings { /* empty */ }
 }

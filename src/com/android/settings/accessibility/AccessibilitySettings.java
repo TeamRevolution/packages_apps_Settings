@@ -39,6 +39,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
+import android.preference.SlimSeekBarPreference;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.text.TextUtils.SimpleStringSplitter;
@@ -57,7 +58,6 @@ import com.android.settings.DialogCreatable;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-import com.android.settings.widget.SeekBarPreference;
 
 import java.util.HashSet;
 import java.util.List;
@@ -104,6 +104,10 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             "captioning_preference_screen";
     private static final String DISPLAY_MAGNIFICATION_PREFERENCE_SCREEN =
             "screen_magnification_preference_screen";
+    private static final String RECENT_PANEL_SHOW_TOPMOST =
+            "recent_panel_show_topmost";
+    private static final String SHAKE_SENSITIVITY =
+            "shake_sensitivity";
     private static final String RECENT_PANEL_LEFTY_MODE =
             "recent_panel_lefty_mode";
     private static final String RECENT_PANEL_SCALE =
@@ -200,11 +204,13 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
     private CheckBoxPreference mTogglePowerButtonEndsCallPreference;
     private CheckBoxPreference mToggleLockScreenRotationPreference;
     private CheckBoxPreference mToggleSpeakPasswordPreference;
-    private SeekBarPreference mSelectLongPressTimeoutPreference;
+    private ListPreference mShakeSensitivity;
+    private SlimSeekBarPreference mSelectLongPressTimeoutPreference;
     private Preference mNoServicesMessagePreference;
     private PreferenceScreen mCaptioningPreferenceScreen;
     private PreferenceScreen mDisplayMagnificationPreferenceScreen;
     private PreferenceScreen mGlobalGesturePreferenceScreen;
+    private CheckBoxPreference mRecentsShowTopmost;
     private CheckBoxPreference mRecentPanelLeftyMode;
     private ListPreference mRecentPanelScale;
     private ListPreference mRecentPanelExpandedMode;
@@ -250,6 +256,11 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.LONG_PRESS_TIMEOUT, Integer.parseInt(stringValue));
             return true;
+        } else if (preference == mShakeSensitivity) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SHAKE_SENSITIVITY, value);
+            return true;
         } else if (preference == mRecentPanelScale) {
             int value = Integer.parseInt((String) newValue);
             Settings.System.putInt(getContentResolver(),
@@ -264,6 +275,11 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(),
                     Settings.System.RECENT_PANEL_GRAVITY,
                     ((Boolean) newValue) ? Gravity.LEFT : Gravity.RIGHT);
+            return true;
+        } else if (preference == mRecentsShowTopmost) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.RECENT_PANEL_SHOW_TOPMOST,
+                    ((Boolean) newValue) ? 1 : 0);
             return true;
         }
         return false;
@@ -372,9 +388,14 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
         mToggleSpeakPasswordPreference =
                 (CheckBoxPreference) findPreference(TOGGLE_SPEAK_PASSWORD_PREFERENCE);
 
+        //Shake sensitivity
+        mShakeSensitivity =
+                (ListPreference) findPreference(SHAKE_SENSITIVITY);
+        mShakeSensitivity.setOnPreferenceChangeListener(this);
+
         // Long press timeout.
         mSelectLongPressTimeoutPreference =
-                (SeekBarPreference) findPreference(SELECT_LONG_PRESS_TIMEOUT_PREFERENCE);
+                (SlimSeekBarPreference) findPreference(SELECT_LONG_PRESS_TIMEOUT_PREFERENCE);
         mSelectLongPressTimeoutPreference.setDefault(LONGPRESS_TIME_DEFAULT);
         mSelectLongPressTimeoutPreference.isMilliseconds(true);
         mSelectLongPressTimeoutPreference.setInterval(1);
@@ -402,6 +423,12 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             // nor long press power does not show global actions menu.
             mSystemsCategory.removePreference(mGlobalGesturePreferenceScreen);
         }
+
+        boolean enableRecentsShowTopmost = Settings.System.getInt(getContentResolver(),
+                                      Settings.System.RECENT_PANEL_SHOW_TOPMOST, 0) == 1;
+        mRecentsShowTopmost = (CheckBoxPreference) findPreference(RECENT_PANEL_SHOW_TOPMOST);
+        mRecentsShowTopmost.setChecked(enableRecentsShowTopmost);
+        mRecentsShowTopmost.setOnPreferenceChangeListener(this);
 
         mRecentPanelLeftyMode =
                 (CheckBoxPreference) findPreference(RECENT_PANEL_LEFTY_MODE);
@@ -538,6 +565,11 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
         final boolean speakPasswordEnabled = Settings.Secure.getInt(getContentResolver(),
                 Settings.Secure.ACCESSIBILITY_SPEAK_PASSWORD, 0) != 0;
         mToggleSpeakPasswordPreference.setChecked(speakPasswordEnabled);
+
+        // Shake sensitivity
+        final int shakeSensitivity = Settings.System.getInt(getContentResolver(),
+                Settings.System.SHAKE_SENSITIVITY, 0);
+        mShakeSensitivity.setValue(shakeSensitivity + "");
 
         // Long press timeout.
         final int longPressTimeout = Settings.Secure.getInt(getContentResolver(),

@@ -28,7 +28,7 @@
             android:title="@string/accessibility_system_title">
 
         <PreferenceScreen
-            android:fragment="com.android.settings.accessibility.ToggleCaptioningPreferenceFragment"
+            android:fragment="com.android.settings.accessibility.CaptionPropertiesFragment"
             android:key="captioning_preference_screen"
             android:title="@string/accessibility_captioning_title" />
 
@@ -66,7 +66,15 @@
                 android:fragment="com.android.settings.tts.TextToSpeechSettings"
                 android:title="@string/tts_settings_title"/>
 
-        <com.android.settings.widget.SeekBarPreference
+        <ListPreference
+            android:key="shake_sensitivity"
+            android:title="@string/shake_sensitivity_title"
+            android:summary="@string/shake_sensitivity_summary"
+            android:entries="@array/shake_sensitivity_entries"
+            android:entryValues="@array/shake_sensitivity_values"
+            android:persistent="false"/>
+
+        <SlimSeekBarPreference
                 android:key="select_long_press_timeout_preference"
                 android:title="@string/accessibility_long_press_timeout_preference_title" />
 
@@ -87,6 +95,12 @@
                 android:key="recent_panel_lefty_mode"
                 android:title="@string/recent_panel_lefty_mode_title"
                 android:summary="@string/recent_panel_lefty_mode_summary"
+                android:persistent="false" />
+
+        <CheckBoxPreference
+                android:key="recent_panel_show_topmost"
+                android:title="@string/recent_panel_show_topmost_title"
+                android:summary="@string/recent_panel_show_topmost_summary"
                 android:persistent="false" />
 
         <ListPreference

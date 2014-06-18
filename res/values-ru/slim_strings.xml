@@ -132,6 +132,26 @@
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Изменять яркость, проводя по строке состояния</string>
     <string name="status_bar_toggle_info">Включена автоматическая регулировка яркости</string>
+
+    <!-- Shake Events -->
+    <string name="shake_events_title">Действия встряхивания</string>
+    <string name="shake_events_enabled_title">Включить встряхивание</string>
+    <string name="shake_events_normal_title">Активные действия встряхивания</string>
+    <string name="shake_events_disabled_title">Приложения-исключения</string>
+    <string name="shake_events_disabled_summary">Отключить встряхивание в следующих приложениях</string>
+    <string name="shake_event_x_title">Запускать при горизонтальном встряхивании</string>
+    <string name="shake_event_y_title">Запускать при вертикальном встряхивании</string>
+    <string name="shake_event_z_title">Запускать при встряхивании туда-сюда</string>
+    <!-- Shake sensitivity -->
+    <string name="shake_sensitivity_title">Чувствительность встряхивания</string>
+    <string name="shake_sensitivity_summary">Общая чувствительность всех настроек встряхивания</string>
+    <string name="shake_sensitivity_even_less_sensitive">Минимальная чувствительность</string>
+    <string name="shake_sensitivity_less_sensitive">Меньшая чувствительность</string>
+    <string name="shake_sensitivity_more_sensitive">Большая чувствительность</string>
+    <string name="shake_sensitivity_very_sensitive">Высокая чувствительность</string>
+    <string name="shake_sensitivity_super_sensitive">Супер-чувствительность</string>
+    <string name="shake_sensitivity_ultra_sensitive">Ультра-чувствительность</string>
+
     <string name="pref_low_battery_warning_policy_title">Низкий заряд батареи</string>
     <string name="pref_low_battery_warning_policy_dialog_title">Предупреждение о низком заряде</string>
     <string name="low_battery_warning_policy_popup_sound">Сообщение и звук</string>
@@ -299,10 +319,11 @@
 
     <!-- QuickSettings: Smart Pulldown -->
     <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
-    <string name="smart_pulldown_summary">Открывать быстрые настройки, если нет %1$s уведомлений</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки при %1$s уведомлениях</string>
     <string name="smart_pulldown_off">Выкл</string>
-    <string name="smart_pulldown_dismissable">Удаляемые</string>
-    <string name="smart_pulldown_persistent">Постоянные</string>
+    <string name="smart_pulldown_dismissable">Без удаляемых</string>
+    <string name="smart_pulldown_persistent">Без постоянных</string>
+    <string name="smart_pulldown_all">Без удаляемых и постоянных</string>
 
     <string name="quicksettings_tiles_style">Стиль быстрых настроек</string>
     <string name="summary_quicksettings_tiles_style">Просмотреть/изменить установки стиля быстрых настроек</string>
@@ -323,7 +344,8 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Задать</string>
     <string name="battery_text_color">Цвет процентов</string>
-    <string name="battery_text_charging_color">Цвет молнии при зарядке</string>
+    <string name="battery_text_charging_color">Цвет текста при зарядке</string>
+    <string name="battery_circle_charging_color">Цвет круга при зарядке</string>
     <string name="circle_battery_animation_speed">Скорость анимации круга</string>
     <string name="circle_battery_animation_speed_none">Нет</string>
     <string name="circle_battery_animation_speed_slow">Медленно</string>
@@ -357,6 +379,9 @@
     <string name="lock_screen_title">Экран блокировки</string>
     <string name="lock_screen_summary">Просмотреть или изменить настройки экрана блокировки</string>
     <string name="lockscreen_widgets_title">Виджеты</string>
+    <string name="lockscreen_allow_all_title">Разрешить все виджеты</string>
+    <string name="lockscreen_allow_all_summary">Разрешить также виджеты, которые изначально не поддерживают расположение на экране блокировки</string>
+    <string name="lockscreen_allow_all_warning">Некоторые виджеты на экране блокировки могут работать не так, как ожидается. Некоторые могут показать ваши личные данные лицам, имеющим доступ к вашему аппарату. Пожалуйста, будтье внимательны, включая эту возможность.</string>
     <string name="lockscreen_camera_widget_title">Включить виджет камеры</string>
     <string name="lockscreen_camera_widget_summary">Показывать виджет камеры на экране блокировки</string>
     <string name="lockscreen_maximize_widgets_title">В полный экран</string>
@@ -415,6 +440,20 @@
     <string name="lock_numpad_random_off">Отключено</string>
     <string name="lock_numpad_random_always">Всегда</string>
     <string name="lock_numpad_random_on_request">По запросу</string>
+    <string name="shake_to_secure_title">Встряхните устройство на экране блокировки для включения защиты</string>
+    <string name="shake_to_secure_summary">Защита будет отключаться после каждой успешной разблокировки</string>
+    <string name="shake_to_secure_dlg_title">Внимание:</string>
+    <string name="shake_to_secure_dlg_message">Ваше устройство не будет защищено до тех пор, пока вы не встряхнете его, чтобы включить временную защиту. Защита однократна: после успешной разблокировки защита отключается до следующего встряхивания.</string>
+    <string name="shake_secure_timeout_title">Включать защиту автоматически</string>
+    <string name="shake_all">Встряхивать в любую сторону</string>
+    <string name="shake_horizontal">Встряхивать горизонтально</string>
+    <string name="shake_vertical">Встряхивать вертикально</string>
+    <string name="shake_back_forth">Встряхивать туда-сюда</string>
+    <string name="shake_secure_timeout_disabled">Никогда не включать автоматически</string>
+    <string name="shake_secure_timeout_1min">1 минута после отключения экрана</string>
+    <string name="shake_secure_timeout_5min">5 минут после отключения экрана</string>
+    <string name="shake_secure_timeout_10min">10 минут после отключения экрана</string>
+    <string name="shake_secure_timeout_30min">30 минут после отключения экрана</string>
     <string name="app_security_title">БЕЗОПАСНОСТЬ ПРИЛОЖЕНИЙ</string>
     <string name="navigation_bar">Строка навигации</string>
     <string name="navbar_button_cat">Кнопки строки навигации</string>
@@ -647,6 +686,7 @@
     <string name="auto_brightness_menu_edit">Редактировать</string>
     <string name="battery_prefs_title">Настройки</string>
     <string name="battery_stats_title">Статистика</string>
+    <string name="shortcut_action_keyguard_camera">Камера экрана блокировки</string>
     <string name="shortcut_action_airplane">Режим полета</string>
     <string name="shortcut_action_power_off">Выключение</string>
     <string name="shortcut_action_reboot">Перезагрузка</string>
@@ -662,10 +702,12 @@
     <string name="battery_status_icon">Значок</string>
     <string name="battery_status_percentage">Проценты</string>
     <string name="battery_status_icon_percentage">Значок с процентами</string>
+    <string name="battery_status_icon_percentage_jb">Значок с процентами в стиле JB</string>
     <string name="battery_status_circle">Круг</string>
     <string name="battery_status_circle_percentage">Круг с процентами</string>
     <string name="battery_status_dotted_circle_percentage">Точечный круг с процентами</string>
     <string name="battery_status_dotted_circle">Точечный круг</string>
+    <string name="battery_status_gone">Скрыть батарею</string>
     <string name="battery_color_title">Цвет батареи</string>
     <string name="battery_bolt_color">Цвет молнии при зарядке</string>
     <string name="battery_style_reset_message">Сбросить все цвета батареи?</string>
@@ -753,6 +795,7 @@
     <string name="custom_toggle_extras">Дополнения своего ярлыка</string>
     <string name="custom_toggle_collapse_check">Сворачивать тень уведомления</string>
     <string name="custom_toggle_match_state_check">Значок для обычного нажатия</string>
+    <string name="custom_toggle_double_click_check">Двойное нажатие для переключения к предыдущему действию</string>
     <string name="custom_tile_long_press">Долгое нажатие:</string>
     <string name="custom_tile_null_warning">Сначала нужно задать действие</string>
     <string name="custom_tile_resolve_name">Неизвестно</string>
@@ -885,6 +928,23 @@
     <string name="keys_action_double">Двойное нажатие</string>
     <string name="no_home_key">Действие \"Домой\" не назначено ни на какую кнопку!\n\nЭто может сделать невозможным использование устройства!</string>
 
+    <!-- Hardware keys backlight -->
+    <string name="button_backlight_title">Подсветка кнопок</string>
+    <string name="button_backlight_enabled">Включить подсветку кнопок</string>
+    <string name="keyboard_backlight_enabled">Включить подсветку клавиатуры</string>
+    <string name="button_backlight_seekbar_title">Яркость кнопок</string>
+    <string name="keyboard_backlight_seekbar_title">Яркость клавиатуры</string>
+    <string name="backlight_timeout_title">Длительность подсветки</string>
+    <string name="backlight_timeout_unlimited">Не отключать</string>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> секунда</item>
+        <item quantity="few"><xliff:g id="seconds">%d</xliff:g> секунды</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> секунд</item>
+    </plurals>
+    <string name="backlight_summary_disabled">Отключена</string>
+    <string name="backlight_summary_enabled_with_timeout">Включена, длится <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Включена</string>
+
     <string name="pie_control_size">Размер pie</string>
     <string name="pie_control_trigger_positions">Параметры переключения</string>
     <string name="pie_control_trigger_left">Включать по левой границе экрана</string>
@@ -958,9 +1018,24 @@
     <string name="recent_panel_scale_title">Размер</string>
     <string name="recent_panel_scale_summary">Размер панели недавних приложений в процентах.</string>
     <string name="recent_panel_100">100% (по умолчанию)</string>
+    <string name="recent_panel_expanded_mode_title">Расширенный режим</string>
+    <string name="recent_panel_expanded_mode_summary">Расширенный режим просмотра недавних приложений</string>
+    <string name="recent_panel_expanded_mode_auto">Авто (по умолчанию)</string>
+    <string name="recent_panel_expanded_mode_always">Всегда</string>
+    <string name="recent_panel_expanded_mode_never">Никогда</string>
+    <string name="recent_panel_show_topmost_title">Показывать последнее приложение</string>
+    <string name="recent_panel_show_topmost_summary">Показывать последнее приложение в списке недавних</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
     <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений у левого края.</string>
 
+    <!-- App moving -->
+    <string name="app_moving_enable">Включить перемещение приложений</string>
+    <string name="app_moving_disable">Отключить перемщеение приложений</string>
+    <string name="app_moving_reboot_title">Перезагрузить</string>
+    <string name="app_moving_reboot_enabled_desc">Перемещение приложений включено.\n\nДля применения перезагрузите устройство.</string>
+    <string name="app_moving_reboot_disabled_desc">Перемещение приложений отключено.\n\nДля применения перезагрузите устройство.</string>
+    <string name="app_moving_reboot_now_button">Сейчас</string>
+    <string name="app_moving_reboot_later_button">Позже</string>
 </resources>
