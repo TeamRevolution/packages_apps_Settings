@@ -60,6 +60,12 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_settings_headsup"
+        android:key="heads_up"
+        android:fragment="com.android.settings.headsup.HeadsUpDoNotDisturbSettings"
+        android:title="@string/category_heads_up" />
+
+    <PreferenceScreen
         android:key="peek_settings"
         android:fragment="com.android.settings.slim.PeekSettings"
         android:icon="@drawable/ic_peek"

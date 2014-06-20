@@ -1482,4 +1482,10 @@
     <string name="background_result_not_successful">El fondo no se ha cambiado</string>
     <string name="setting_lockscreen_background">Aplicando fondo</string>
 
+    <!-- Heads Up -->
+    <string name="category_heads_up">Notificaciones Heads up</string>
+    <string name="title_heads_up_enabled">Activar heads up</string>
+    <string name="add_heads_up_dnd_package">Añadir app a No molestar</string>
+    <string name="heads_up_dnd_title">No molestar</string>
+
 </resources>
