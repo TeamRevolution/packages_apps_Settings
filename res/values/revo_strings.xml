@@ -401,9 +401,6 @@
     <string name="blur_radius_title">Blur Radius</string>
     <string name="blur_radius_summary">Set the blur radius for the blur effect</string>
 
-    <!-- Lockscreen Wallpaper -->
-    <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
-
     <!-- Lockscreen Notifications -->
     <!-- Categories --> 
     <string name="general">General</string>

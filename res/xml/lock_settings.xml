@@ -9,15 +9,6 @@
         android:fragment="com.android.settings.slim.LockscreenGeneral"
         android:title="@string/blur_category" />
 
-    <Preference
-            android:key="lockscreen_custom_wallpaper"
-            android:title="@string/lockscreen_wallpaper_title"
-            android:persistent="false">
-            <intent
-                    android:targetPackage="com.android.wallpapercropper"
-                    android:targetClass="com.android.wallpapercropper.LockscreenWallpaper" />
-        </Preference>
-
     <PreferenceScreen
             android:key="keyguard_style"
             android:fragment="com.android.settings.slim.LockscreenStyle"
