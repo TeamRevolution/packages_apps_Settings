@@ -31,6 +31,7 @@ import android.os.Handler;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
+import android.preference.SlimSeekBarPreference;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.Gravity;
@@ -57,12 +58,17 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
     private static final int DIALOG_DND_APPS = 0;
     private static final int DIALOG_BLACKLIST_APPS = 1;
 
+    private static final String KEY_HEADS_UP_TIMEOUT = "heads_up_timeout";
+    private static final String KEY_HEADS_UP_FS_TIMEOUT = "heads_up_fullscreen_timeout";
+
     private PackageListAdapter mPackageAdapter;
     private PackageManager mPackageManager;
     private PreferenceGroup mDndPrefList;
     private PreferenceGroup mBlacklistPrefList;
     private Preference mAddDndPref;
     private Preference mAddBlacklistPref;
+    private SlimSeekBarPreference mHeadsUpTimeout;
+    private SlimSeekBarPreference mHeadsUpFSTimeout;
 
     private String mDndPackageList;
     private String mBlacklistPackageList;
@@ -95,6 +101,16 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
         mBlacklistPrefList = (PreferenceGroup) findPreference("blacklist_applications");
         mBlacklistPrefList.setOrderingAsAdded(false);
+
+        mHeadsUpTimeout = (SlimSeekBarPreference) findPreference(KEY_HEADS_UP_TIMEOUT);
+        mHeadsUpTimeout.setInitValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.HEADS_UP_TIMEOUT, 3700));
+        mHeadsUpTimeout.setOnPreferenceChangeListener(this);
+
+        mHeadsUpFSTimeout = (SlimSeekBarPreference) findPreference(KEY_HEADS_UP_FS_TIMEOUT);
+        mHeadsUpFSTimeout.setInitValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.HEADS_UP_FS_TIMEOUT, 700));
+        mHeadsUpFSTimeout.setOnPreferenceChangeListener(this);
 
         mDndPackages = new HashMap<String, Package>();
         mBlacklistPackages = new HashMap<String, Package>();
@@ -301,12 +317,30 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
     private void addCustomApplicationPref(String packageName, Map<String,Package> map) {
         Package pkg = map.get(packageName);
-        if (pkg == null) {
+            if (pkg == null) {
             pkg = new Package(packageName);
             map.put(packageName, pkg);
             savePackageList(false, map);
             refreshCustomApplicationPrefs();
         }
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        if (preference == mEnabledPref) {
+            getActivity().invalidateOptionsMenu();
+        } else if (preference == mHeadsUpTimeout) {
+            int length = ((Integer) objValue).intValue();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.HEADS_UP_TIMEOUT, length);
+        } else if (preference == mHeadsUpFSTimeout) {
+            int length = ((Integer) objValue).intValue();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.HEADS_UP_FS_TIMEOUT, length);
+        } else {
+            Preference pref = preference;
+            updateValues(pref.getKey());
+        }
+        return true;
     }
 
     private Preference createPreferenceFromInfo(Package pkg)
