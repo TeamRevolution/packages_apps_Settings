@@ -59,6 +59,6 @@
         android:key="network_speed_color"
         android:title="@string/network_speed_color_title"
         android:dependency="status_bar_traffic_enable"
-        android:defaultValue="0xffffffff" />
+        android:defaultValue="#ffffffff" />
 
 </PreferenceScreen>

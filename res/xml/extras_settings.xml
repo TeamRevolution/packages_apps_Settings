@@ -65,15 +65,6 @@
             android:fragment="com.android.settings.slim.SoundSettings"
             android:title="@string/sound_title" />
 
-    <PreferenceScreen 
-         android:icon="@drawable/pie" 
-         android:title="LMT">
-         <intent 
-             android:targetPackage="com.android.lmt" 
-             android:action="android.intent.action.MAIN" 
-             android:targetClass="com.android.lmt.LMT" />
-     </PreferenceScreen>
-
      <PreferenceScreen 
          android:icon="@drawable/viper" 
          android:title="Viper4">

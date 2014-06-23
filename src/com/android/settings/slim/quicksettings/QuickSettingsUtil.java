@@ -68,7 +68,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.internal.util.cm.QSUtils;
+import com.android.internal.util.slim.QSUtils;
 import com.android.internal.telephony.Phone;
 import com.android.internal.util.slim.DeviceUtils;
 import com.android.settings.R;
