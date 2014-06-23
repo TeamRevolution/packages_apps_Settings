@@ -1492,10 +1492,8 @@
     <string name="heads_up_dnd_title">No molestar</string>
     <string name="heads_up_blacklist_title">Lista negra</string>
     <string name="heads_up_disabled_notice">Para ver tus notificaciones tipo pop-up, activa Heads up.</string>
-
-    <!-- Heads Up Timeout -->
-    <string name="heads_up_timeout_title">Opciones visibilidad</string>
     <string name="heads_up_timeout">Visibilidad Heads up</string>
     <string name="heads_up_fullscreen_timeout">Heads up visible en pantalla</string>
+    <string name="heads_up_floating_window">Abrir en ventana flotante</string>
 
 </resources>

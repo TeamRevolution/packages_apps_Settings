@@ -61,7 +61,7 @@ import static com.android.internal.util.slim.QSConstants.TILE_ONTHEGO;
 import static com.android.internal.util.slim.QSConstants.TILE_PROFILE;
 import static com.android.internal.util.slim.QSConstants.TILE_COMPASS;
 import static com.android.internal.util.slim.QSConstants.TILE_NETWORKSPEED;
-import static com.android.internal.util.ose.QSConstants.TILE_HEADS_UP;
+import static com.android.internal.util.slim.QSConstants.TILE_HEADS_UP;
 
 import android.content.ContentResolver;
 import android.content.Context;
