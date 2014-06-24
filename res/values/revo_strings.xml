@@ -29,6 +29,7 @@
     <string name="sistema_cat">System</string>
     <string name="network_cat">Network</string>
     <string name="multi_settings_cat">Multitask</string>
+    <string name="notif_cat">Notifications</string>
     <string name="extras_interface_title">Revolution extras</string>
     <string name="fc_title">FC notification</string>
     <string name="powerbattery_title">PowerBattery</string>

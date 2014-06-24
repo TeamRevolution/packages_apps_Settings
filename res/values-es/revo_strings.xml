@@ -747,6 +747,7 @@
     <string name="general_cat">General</string>
     <string name="extras_cat">Extras</string>
     <string name="sistema_cat">Sistema</string>
+    <string name="notif_cat">Notificaciones</string>
     <string name="network_cat">Red</string>
     <string name="multi_settings_cat">Panel Multitarea</string>
     <string name="fc_title">FC notificación</string>

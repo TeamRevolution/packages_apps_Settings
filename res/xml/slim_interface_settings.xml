@@ -49,15 +49,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/display_cat">
-
-    <PreferenceScreen
-        android:icon="@drawable/dpi"
-        android:key="DPI"
-        android:title="@string/dpi_category" >
-        <intent android:targetPackage="com.android.settings"
-                android:targetClass="com.android.settings.dokdo.DPI_Settings" />
-    </PreferenceScreen>
+        android:title="@string/notif_cat">
 
     <PreferenceScreen
         android:icon="@drawable/ic_settings_headsup"
@@ -84,6 +76,25 @@
         android:title="@string/ad_settings_title" />
 
     <PreferenceScreen
+        android:key="@+id/lockscreen_notifcation_settings"
+        android:icon="@drawable/ic_settings_locknotification"
+        android:title="@string/lockscreen_notifications"
+        android:fragment="com.carbon.fibers.fragments.ls.LockscreenNotifications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/display_cat">
+
+    <PreferenceScreen
+        android:icon="@drawable/dpi"
+        android:key="DPI"
+        android:title="@string/dpi_category" >
+        <intent android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.dokdo.DPI_Settings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:key="app_sidebar"
         android:title="@string/app_sidebar_title"        
         android:icon="@drawable/ic_settings_app_bar"
@@ -99,13 +110,7 @@
         android:key="identicons"
         android:fragment="com.android.settings.chameleonos.labs.identicons.IdenticonsSettings"
         android:icon="@drawable/ic_settings_identicons"
-        android:title="@string/identicons_title" />
-
-    <PreferenceScreen
-        android:key="@+id/lockscreen_notifcation_settings"
-        android:icon="@drawable/ic_settings_locknotification"
-        android:title="@string/lockscreen_notifications"
-        android:fragment="com.carbon.fibers.fragments.ls.LockscreenNotifications" />  
+        android:title="@string/identicons_title" />  
 
     <Preference
         android:fragment="com.android.settings.omnidirt.Animations"
