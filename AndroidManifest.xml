@@ -1805,6 +1805,7 @@
         <activity android:name=".ose.gestureanywhere.GestureAnywhereBuilderActivity" />
         <activity android:name=".ose.gestureanywhere.GestureAnywhereCreateGestureActivity" />
         <activity android:name=".dokdo.DPI_Settings" />
+        <activity android:name=".ose.headsup.HeadsUpSettings" />
 
         <activity
             android:name="com.android.settings.du.SystemappRemover"
