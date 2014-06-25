@@ -1491,5 +1491,6 @@
     <string name="add_heads_up_blacklist_summary">No ver en Heads up estas app</string>
     <string name="heads_up_dnd_title">No molestar</string>
     <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="heads_up_disabled_notice">Para ver tus notificaciones tipo pop-up, activa Heads up.</string>
 
 </resources>
