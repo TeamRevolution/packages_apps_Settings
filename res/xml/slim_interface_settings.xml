@@ -51,12 +51,11 @@
     <PreferenceCategory
         android:title="@string/notif_cat">
 
-    <com.android.settings.ose.SystemSwitchPreference
+    <Preference
         android:icon="@drawable/ic_settings_headsup"
         android:key="heads_up_enabled"
         android:fragment="com.android.settings.ose.headsup.HeadsUpSettings"
-        android:title="@string/category_heads_up"
-        android:summary="@string/summary_heads_up" />
+        android:title="@string/category_heads_up" />
 
     <PreferenceScreen
         android:key="peek_settings"

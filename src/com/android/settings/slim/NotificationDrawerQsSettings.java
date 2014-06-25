@@ -38,7 +38,6 @@ import com.android.internal.util.slim.DeviceUtils;
 import com.android.settings.util.Helpers;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.slim.quicksettings.QuickSettingsUtil;
-import com.android.settings.ose.SystemSwitchPreference;
 import com.android.settings.R;
 
 public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
@@ -73,7 +72,7 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
     private static final String PREF_QUICK_SETTINGS_TILES_FLIP =
             "quick_settings_tiles_flip";
 
-    private SystemSwitchPreference mSwitchPreference;
+    private Preference mHeadsUp;
 
     ListPreference mHideLabels;
     SlimSeekBarPreference mNotificationAlpha;
@@ -107,8 +106,7 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1);
         mStatusBarCustomHeader.setOnPreferenceChangeListener(this);
 
-        mSwitchPreference = (SystemSwitchPreference)
-                findPreference(Settings.System.HEADS_UP_NOTIFICATION);
+        mHeadsUp = findPreference(Settings.System.HEADS_UP_NOTIFICATION);
 
         PackageManager pm = getPackageManager();
         boolean isMobileData = pm.hasSystemFeature(PackageManager.FEATURE_TELEPHONY);
@@ -222,10 +220,10 @@ public class NotificationDrawerQsSettings extends SettingsPreferenceFragment
         super.onResume();
         QuickSettingsUtil.updateAvailableTiles(getActivity());
         updateQuickSettingsOptions();
-        boolean headsUpEnabled = Settings.System.getIntForUser(
-                getActivity().getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFICATION, 0, UserHandle.USER_CURRENT) == 1;
-        mSwitchPreference.setChecked(headsUpEnabled);
+        boolean headsUpEnabled = Settings.System.getInt(
+                getContentResolver(), Settings.System.HEADS_UP_NOTIFICATION, 0) == 1;
+        mHeadsUp.setSummary(headsUpEnabled
+                ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
     }
 
     @Override

@@ -1485,8 +1485,8 @@
 
     <!-- Heads Up -->
     <string name="category_heads_up">Notificaciones Heads up</string>
-    <string name="title_heads_up_enabled">Activar heads up</string>
-    <string name="add_heads_up_package">Añadir app</string>
+    <string name="summary_heads_up_enabled">Notificaciones pop-up activadas</string>
+    <string name="summary_heads_up_disabled">Notificaciones pop-up desactivadas</string>
     <string name="add_heads_up_dnd_summary">No ver en Heads up estas app</string>
     <string name="add_heads_up_blacklist_summary">No ver en Heads up estas app</string>
     <string name="heads_up_dnd_title">No molestar</string>
