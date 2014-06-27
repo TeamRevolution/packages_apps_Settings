@@ -18,6 +18,34 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
     <PreferenceCategory
+            android:title="@string/status_bar_general_title">
+
+        <com.android.settings.slim.SystemSettingCheckBoxPreference
+                android:key="heads_up_floating_window"
+                android:title="@string/heads_up_floating_window"
+                android:defaultValue="true" />
+
+        <SlimSeekBarPreference
+                android:key="heads_up_timeout"
+                android:title="@string/heads_up_timeout"
+                android:defaultValue="37"
+                android:max="100"
+                settings:min="1"
+                settings:unitsLeft=""
+                settings:unitsRight="ms" />
+
+        <SlimSeekBarPreference
+                android:key="heads_up_fullscreen_timeout"
+                android:title="@string/heads_up_fullscreen_timeout"
+                android:defaultValue="7"
+                android:max="100"
+                settings:min="1"
+                settings:unitsLeft=""
+                settings:unitsRight="ms" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory    
             android:title="@string/heads_up_dnd_title"
             android:key="dnd_applications_list">
 
@@ -31,43 +59,12 @@
     <PreferenceCategory
             android:title="@string/heads_up_blacklist_title"
             android:key="blacklist_applications">
+
         <Preference
             android:key="add_blacklist_packages"
             android:icon="@drawable/ic_menu_add"
             android:title="@string/add_heads_up_package"
             android:summary="@string/add_heads_up_blacklist_summary"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-            android:title="@string/heads_up_timeout_title" >
-
-        <com.android.settings.slim.SystemCheckBoxPreference
-            android:key="heads_up_floating_window"
-            android:title="@string/heads_up_floating_window"
-            android:defaultValue="true"
-            android:dependency="heads_up_enabled" />
-
-       <SlimSeekBarPreference
-            android:key="heads_up_timeout"
-            android:title="@string/heads_up_timeout"
-            android:defaultValue="3700"
-            android:max="10000"
-            settings:min="100"
-            settings:interval="100"
-            settings:unitsLeft=""
-            settings:unitsRight="ms"
-            android:dependency="heads_up_enabled" />
-
-        <SlimSeekBarPreference
-            android:key="heads_up_fullscreen_timeout"
-            android:title="@string/heads_up_fullscreen_timeout"
-            android:defaultValue="700"
-            android:max="10000"
-            settings:min="100"
-            settings:interval="100"
-            settings:unitsLeft=""
-            settings:unitsRight="ms"
-            android:dependency="heads_up_enabled" />
     </PreferenceCategory>
 
 </PreferenceScreen>

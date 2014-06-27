@@ -16,9 +16,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory
-        android:title="@string/notification_drawer_title" />
-
     <ListPreference
         android:key="notification_hide_labels"
         android:title="@string/notification_hide_labels_title"
